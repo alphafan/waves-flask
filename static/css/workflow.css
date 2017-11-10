@@ -1,0 +1,82 @@
+#selector {
+    height: 500px; 
+    padding-left: 3px; 
+    padding-right:3px;
+}
+#panel {
+    height: 550px; 
+    background-color:#fcf8e3;
+    border-right: 2px solid #f5f5f5;
+}
+#selector .panel-body {
+    padding: 0px;
+}
+#selector .list-group {
+    margin-bottom: 0px;
+}
+#selector img {
+    width: 21px;
+}
+.component {
+    margin-bottom: 2px;
+    margin-top: 0px;
+    float: left;
+    min-width: 60px;
+    border: 1px solid #333;
+    background-color: white;
+    border-radius: 12%;
+    padding: 3px 3px 1px 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-sizing: content-box;
+    position: relative;
+}
+.component:hover {
+    border: 1px solid orange;
+    cursor: default;
+}
+.component.selected {
+    border: 1px solid orange;
+}
+.component.saved {
+    border: 1px solid #5cb85c;
+    cursor: default;
+}
+.component img {
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.component p {
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.component .anchor {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    right: 5px;
+    top: 10px;
+    border: 1px solid orange;
+    border-radius: 50%;
+    background-color: orange;
+}
+.component .anchor:hover {
+    cursor: pointer;
+}
+#cmpt_settings {
+    border: 3px solid #f5f5f5; 
+    min-height: 300px;
+    margin-bottom:15px;
+}
+.settings-title {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}

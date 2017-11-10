@@ -1,0 +1,30 @@
+@prefix om-owl:  <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sens-obs:  <http://knoesis.wright.edu/ssw/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix weather:  <http://knoesis.wright.edu/ssw/ont/weather.owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wgs84:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+sens-obs:point_BGBC1
+      a       wgs84:Point ;
+      wgs84:alt "1500"^^xsd:float ;
+      wgs84:lat "40.7433"^^xsd:float ;
+      wgs84:long "-123.2500"^^xsd:float .
+
+sens-obs:LocatedNearRelBGBC1
+      a       om-owl:LocatedNearRel ;
+      om-owl:distance "0.3887"^^xsd:float ;
+      om-owl:hasLocation <http://sws.geonames.org/5559655/> ;
+      om-owl:uom weather:miles .
+
+sens-obs:System_BGBC1
+      a       om-owl:System ;
+      om-owl:ID "BGBC1" ;
+      om-owl:hasLocatedNearRel
+              sens-obs:LocatedNearRelBGBC1 ;
+      om-owl:hasSourceURI <http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=BGBC1> ;
+      om-owl:parameter weather:_WindDirection , weather:_RelativeHumidity , weather:_AirTemperature , weather:_DewPoint , weather:_PeakWindSpeed , weather:_WindSpeed , weather:_WindGust , weather:_PrecipitationAccumulated , weather:_PeakWindDirection ;
+      om-owl:processLocation
+              sens-obs:point_BGBC1 .

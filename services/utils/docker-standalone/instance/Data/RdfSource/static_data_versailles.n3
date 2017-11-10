@@ -1,0 +1,1592 @@
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix waves: <http://waves.org/resource#> .
+@prefix cuahsi: <http://his.cuahsi.org/ontology/cuahsi#> .
+@prefix qudtunit: <http://qudt.org/vocab/unit#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix qudt: <http://data.nasa.gov/qudt/owl/qudt#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+waves:Hubies_Haut a ssn:Platform ;
+	rdfs:label "Hubies Haut" .
+
+waves:QS_HH1_Dep1 ssn:onPlatform waves:Hubies_Haut .
+
+waves:inputflowQS_HH1_Dep1 a cuahsi:inputFlow .
+
+waves:QS_HH1_Dep1 ssn:observes waves:inputflowQS_HH1_Dep1 .
+
+waves:inputflowQS_HH1_Dep1 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:QS_HH1_Dep1 a ssn:Sensor ;
+	rdfs:label "QS HH1 Dep1" ;
+	wgs84_pos:lat 4.8834914E1 ;
+	wgs84_pos:long 2.144792E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_HH1_Dep2 ssn:onPlatform waves:Hubies_Haut .
+
+waves:inputflowQS_HH1_Dep2 a cuahsi:inputFlow .
+
+waves:QS_HH1_Dep2 ssn:observes waves:inputflowQS_HH1_Dep2 .
+
+waves:inputflowQS_HH1_Dep2 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:QS_HH1_Dep2 a ssn:Sensor ;
+	rdfs:label "QS HH1 Dep2" ;
+	wgs84_pos:lat 4.8834914E1 ;
+	wgs84_pos:long 2.144792E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_HH2_Dep1 ssn:onPlatform waves:Hubies_Haut .
+
+waves:inputflowQS_HH2_Dep1 a cuahsi:inputFlow .
+
+waves:QS_HH2_Dep1 ssn:observes waves:inputflowQS_HH2_Dep1 .
+
+waves:inputflowQS_HH2_Dep1 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:QS_HH2_Dep1 a ssn:Sensor ;
+	rdfs:label "QS HH2 Dep1" ;
+	wgs84_pos:lat 4.8834599E1 ;
+	wgs84_pos:long 2.144864E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_HH2_Dep2 ssn:onPlatform waves:Hubies_Haut .
+
+waves:inputflowQS_HH2_Dep2 a cuahsi:inputFlow .
+
+waves:QS_HH2_Dep2 ssn:observes waves:inputflowQS_HH2_Dep2 .
+
+waves:inputflowQS_HH2_Dep2 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:QS_HH2_Dep2 a ssn:Sensor ;
+	rdfs:label "QS HH2 Dep2" ;
+	wgs84_pos:lat 4.8834599E1 ;
+	wgs84_pos:long 2.144864E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_250HP ssn:onPlatform waves:Hubies_Haut .
+
+waves:inputflowQ_250HP a cuahsi:inputFlow .
+
+waves:Q_250HP ssn:observes waves:inputflowQ_250HP .
+
+waves:inputflowQ_250HP cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:Q_250HP a ssn:Sensor ;
+	rdfs:label "Q 250HP" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_600HP ssn:onPlatform waves:Hubies_Haut .
+
+waves:inputflowQ_600HP a cuahsi:inputFlow .
+
+waves:Q_600HP ssn:observes waves:inputflowQ_600HP .
+
+waves:inputflowQ_600HP cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:Q_600HP a ssn:Sensor ;
+	rdfs:label "Q 600HP" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT02 ssn:onPlatform waves:Hubies_Haut .
+
+waves:outputflowQ_DT02 a cuahsi:outputFlow .
+
+waves:Q_DT02 ssn:observes waves:outputflowQ_DT02 .
+
+waves:outputflowQ_DT02 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:Q_DT02 a ssn:Sensor ;
+	rdfs:label "Q DT02" ;
+	wgs84_pos:lat 4.8851473E1 ;
+	wgs84_pos:long 2.190468E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT04 ssn:onPlatform waves:Hubies_Haut .
+
+waves:outputflowQ_DT04 a cuahsi:outputFlow .
+
+waves:Q_DT04 ssn:observes waves:outputflowQ_DT04 .
+
+waves:outputflowQ_DT04 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:Q_DT04 a ssn:Sensor ;
+	rdfs:label "Q DT04" ;
+	wgs84_pos:lat 4.8856321E1 ;
+	wgs84_pos:long 2.144909E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT17 ssn:onPlatform waves:Hubies_Haut .
+
+waves:outputflowQ_DT17 a cuahsi:outputFlow .
+
+waves:Q_DT17 ssn:observes waves:outputflowQ_DT17 .
+
+waves:outputflowQ_DT17 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:Q_DT17 a ssn:Sensor ;
+	rdfs:label "Q DT17" ;
+	wgs84_pos:lat 4.8830986E1 ;
+	wgs84_pos:long 2.131169E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT18 ssn:onPlatform waves:Hubies_Haut .
+
+waves:outputflowQ_DT18 a cuahsi:outputFlow .
+
+waves:Q_DT18 ssn:observes waves:outputflowQ_DT18 .
+
+waves:outputflowQ_DT18 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:Q_DT18 a ssn:Sensor ;
+	rdfs:label "Q DT18" ;
+	wgs84_pos:lat 4.8844917E1 ;
+	wgs84_pos:long 2.086078E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_HC1 ssn:onPlatform waves:Hubies_Haut .
+
+waves:outputflowQE_HC1 a cuahsi:outputFlow .
+
+waves:QE_HC1 ssn:observes waves:outputflowQE_HC1 .
+
+waves:outputflowQE_HC1 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:QE_HC1 a ssn:Sensor ;
+	rdfs:label "QE HC1" ;
+	wgs84_pos:lat 4.8816025E1 ;
+	wgs84_pos:long 2.150636E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_HC2 ssn:onPlatform waves:Hubies_Haut .
+
+waves:outputflowQE_HC2 a cuahsi:outputFlow .
+
+waves:QE_HC2 ssn:observes waves:outputflowQE_HC2 .
+
+waves:outputflowQE_HC2 cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:QE_HC2 a ssn:Sensor ;
+	rdfs:label "QE HC2" ;
+	wgs84_pos:lat 4.8815743E1 ;
+	wgs84_pos:long 2.150626E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_H-Brezin ssn:onPlatform waves:Hubies_Haut .
+
+waves:outputflowQE_H-Brezin a cuahsi:outputFlow .
+
+waves:QE_H-Brezin ssn:observes waves:outputflowQE_H-Brezin .
+
+waves:outputflowQE_H-Brezin cuahsi:relatedTo waves:Hubies_Haut .
+
+waves:QE_H-Brezin a ssn:Sensor ;
+	rdfs:label "QE H-Brézin" ;
+	wgs84_pos:lat 4.8842392E1 ;
+	wgs84_pos:long 2.16694E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:P_Louveciennes_Deux_Portes ssn:onPlatform waves:Hubies_Haut .
+
+waves:pressureP_Louveciennes_Deux_Portes a cuahsi:Pressure .
+
+waves:P_Louveciennes_Deux_Portes ssn:observes waves:pressureP_Louveciennes_Deux_Portes ;
+	a ssn:Sensor ;
+	rdfs:label "P Louveciennes (Deux Portes)" ;
+	wgs84_pos:lat 4.8852E1 ;
+	wgs84_pos:long 2.11E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:P_Louveciennes_Bailly ssn:onPlatform waves:Hubies_Haut .
+
+waves:pressureP_Louveciennes_Bailly a cuahsi:Pressure .
+
+waves:P_Louveciennes_Bailly ssn:observes waves:pressureP_Louveciennes_Bailly ;
+	a ssn:Sensor ;
+	rdfs:label "P Louveciennes (Bailly)" ;
+	wgs84_pos:lat 4.8853E1 ;
+	wgs84_pos:long 2.109E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:P_PM3 ssn:onPlatform waves:Hubies_Haut .
+
+waves:pressureP_PM3 a cuahsi:Pressure .
+
+waves:P_PM3 ssn:observes waves:pressureP_PM3 ;
+	a ssn:Sensor ;
+	rdfs:label "P PM3" ;
+	wgs84_pos:lat 4.8831E1 ;
+	wgs84_pos:long 2.178E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PE_H-Brezin ssn:onPlatform waves:Hubies_Haut .
+
+waves:pressurePE_H-Brezin a cuahsi:Pressure .
+
+waves:PE_H-Brezin ssn:observes waves:pressurePE_H-Brezin ;
+	a ssn:Sensor ;
+	rdfs:label "PE H-Brezin" ;
+	wgs84_pos:lat 4.8842E1 ;
+	wgs84_pos:long 2.167E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PRef_Hubies_Hauts ssn:onPlatform waves:Hubies_Haut .
+
+waves:pressurePRef_Hubies_Hauts a cuahsi:Pressure .
+
+waves:PRef_Hubies_Hauts ssn:observes waves:pressurePRef_Hubies_Hauts ;
+	a ssn:Sensor ;
+	rdfs:label "PRef Hubies Hauts" ;
+	wgs84_pos:lat 4.8835E1 ;
+	wgs84_pos:long 2.143E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PS_Hubies_Hauts_vers_Louv ssn:onPlatform waves:Hubies_Haut .
+
+waves:pressurePS_Hubies_Hauts_vers_Louv a cuahsi:Pressure .
+
+waves:PS_Hubies_Hauts_vers_Louv ssn:observes waves:pressurePS_Hubies_Hauts_vers_Louv ;
+	a ssn:Sensor ;
+	rdfs:label "PS Hubies Hauts vers Louv" ;
+	wgs84_pos:lat 4.8835E1 ;
+	wgs84_pos:long 2.143E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_bache_Hubies_bas ssn:onPlatform waves:Hubies_Haut .
+
+waves:chlorineResiduel_chlore_départ_bache_Hubies_bas a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_bache_Hubies_bas ssn:observes waves:chlorineResiduel_chlore_départ_bache_Hubies_bas ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ bâche Hubies bas" ;
+	wgs84_pos:lat 4.8816025E1 ;
+	wgs84_pos:long 2.150636E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_Hubies_R ssn:onPlatform waves:Hubies_Haut .
+
+waves:chlorineRésiduel_chlore_départ_Hubies_R a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_Hubies_R ssn:observes waves:chlorineRésiduel_chlore_départ_Hubies_R ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ Hubies R" ;
+	wgs84_pos:lat 4.8834599E1 ;
+	wgs84_pos:long 2.144864E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Haut-Clagny a ssn:Platform ;
+	rdfs:label "Haut-Clagny" .
+
+waves:QS_HC1_Dep1 ssn:onPlatform waves:Haut-Clagny .
+
+waves:inputflowQS_HC1_Dep1 a cuahsi:inputFlow .
+
+waves:QS_HC1_Dep1 ssn:observes waves:inputflowQS_HC1_Dep1 .
+
+waves:inputflowQS_HC1_Dep1 cuahsi:relatedTo waves:Haut-Clagny .
+
+waves:QS_HC1_Dep1 a ssn:Sensor ;
+	rdfs:label "QS HC1 Dep1" ;
+	wgs84_pos:lat 4.8816025E1 ;
+	wgs84_pos:long 2.150636E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_HC1_Dep2 ssn:onPlatform waves:Haut-Clagny .
+
+waves:inputflowQS_HC1_Dep2 a cuahsi:inputFlow .
+
+waves:QS_HC1_Dep2 ssn:observes waves:inputflowQS_HC1_Dep2 .
+
+waves:inputflowQS_HC1_Dep2 cuahsi:relatedTo waves:Haut-Clagny .
+
+waves:QS_HC1_Dep2 a ssn:Sensor ;
+	rdfs:label "QS HC1 Dep2" ;
+	wgs84_pos:lat 4.8816025E1 ;
+	wgs84_pos:long 2.150636E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_HC2_Dep1 ssn:onPlatform waves:Haut-Clagny .
+
+waves:inputflowQS_HC2_Dep1 a cuahsi:inputFlow .
+
+waves:QS_HC2_Dep1 ssn:observes waves:inputflowQS_HC2_Dep1 .
+
+waves:inputflowQS_HC2_Dep1 cuahsi:relatedTo waves:Haut-Clagny .
+
+waves:QS_HC2_Dep1 a ssn:Sensor ;
+	rdfs:label "QS HC2 Dep1" ;
+	wgs84_pos:lat 4.8815743E1 ;
+	wgs84_pos:long 2.150626E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_HC2_Dep2 ssn:onPlatform waves:Haut-Clagny .
+
+waves:inputflowQS_HC2_Dep2 a cuahsi:inputFlow .
+
+waves:QS_HC2_Dep2 ssn:observes waves:inputflowQS_HC2_Dep2 .
+
+waves:inputflowQS_HC2_Dep2 cuahsi:relatedTo waves:Haut-Clagny .
+
+waves:QS_HC2_Dep2 a ssn:Sensor ;
+	rdfs:label "QS HC2 Dep2" ;
+	wgs84_pos:lat 4.8815743E1 ;
+	wgs84_pos:long 2.150626E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:PS_Haut_Clagny ssn:onPlatform waves:Haut-Clagny .
+
+waves:pressurePS_Haut_Clagny a cuahsi:Pressure .
+
+waves:PS_Haut_Clagny ssn:observes waves:pressurePS_Haut_Clagny ;
+	a ssn:Sensor ;
+	rdfs:label "PS Haut Clagny" ;
+	wgs84_pos:lat 4.8802746E1 ;
+	wgs84_pos:long 2.139458E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Ville_Nouvelle a ssn:Platform ;
+	rdfs:label "Ville Nouvelle" .
+
+waves:QS_IVPaves1500 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:inputflowQS_IVPaves1500 a cuahsi:inputFlow .
+
+waves:QS_IVPaves1500 ssn:observes waves:inputflowQS_IVPaves1500 .
+
+waves:inputflowQS_IVPaves1500 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:QS_IVPaves1500 a ssn:Sensor ;
+	rdfs:label "QS IVPavés1500" ;
+	wgs84_pos:lat 4.8781644E1 ;
+	wgs84_pos:long 2.029267E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_IVPaves1500_bypass ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:inputflowQS_IVPaves1500_bypass a cuahsi:inputFlow .
+
+waves:QS_IVPaves1500_bypass ssn:observes waves:inputflowQS_IVPaves1500_bypass .
+
+waves:inputflowQS_IVPaves1500_bypass cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:QS_IVPaves1500_bypass a ssn:Sensor ;
+	rdfs:label "QS IVPavés1500 bypass" ;
+	wgs84_pos:lat 4.8781644E1 ;
+	wgs84_pos:long 2.029267E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_IVPaves4500 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:inputflowQS_IVPaves4500 a cuahsi:inputFlow .
+
+waves:QS_IVPaves4500 ssn:observes waves:inputflowQS_IVPaves4500 .
+
+waves:inputflowQS_IVPaves4500 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:QS_IVPaves4500 a ssn:Sensor ;
+	rdfs:label "QS IVPavés4500" ;
+	wgs84_pos:lat 4.8779383E1 ;
+	wgs84_pos:long 2.026939E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DE05 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:inputflowQ_DE05 a cuahsi:inputFlow .
+
+waves:Q_DE05 ssn:observes waves:inputflowQ_DE05 .
+
+waves:inputflowQ_DE05 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_DE05 a ssn:Sensor ;
+	rdfs:label "Q DE05" ;
+	wgs84_pos:lat 4.8784647E1 ;
+	wgs84_pos:long 1.988944E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DE13 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:inputflowQ_DE13 a cuahsi:inputFlow .
+
+waves:Q_DE13 ssn:observes waves:inputflowQ_DE13 .
+
+waves:inputflowQ_DE13 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_DE13 a ssn:Sensor ;
+	rdfs:label "Q DE13" ;
+	wgs84_pos:lat 4.8751589E1 ;
+	wgs84_pos:long 2.06315E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_BE04 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:inputflowQ_BE04 a cuahsi:inputFlow .
+
+waves:Q_BE04 ssn:observes waves:inputflowQ_BE04 .
+
+waves:inputflowQ_BE04 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_BE04 a ssn:Sensor ;
+	rdfs:label "Q BE04" ;
+	wgs84_pos:lat 4.8766283E1 ;
+	wgs84_pos:long 2.136241E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_EN01 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:inputflowQ_EN01 a cuahsi:inputFlow .
+
+waves:Q_EN01 ssn:observes waves:inputflowQ_EN01 .
+
+waves:inputflowQ_EN01 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_EN01 a ssn:Sensor ;
+	rdfs:label "Q EN01" ;
+	wgs84_pos:lat 4.8772512E1 ;
+	wgs84_pos:long 2.00056E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT09 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_DT09 a cuahsi:outputFlow .
+
+waves:Q_DT09 ssn:observes waves:outputflowQ_DT09 .
+
+waves:outputflowQ_DT09 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_DT09 a ssn:Sensor ;
+	rdfs:label "Q DT09" ;
+	wgs84_pos:lat 4.877233E1 ;
+	wgs84_pos:long 2.060302E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT10 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_DT10 a cuahsi:outputFlow .
+
+waves:Q_DT10 ssn:observes waves:outputflowQ_DT10 .
+
+waves:outputflowQ_DT10 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_DT10 a ssn:Sensor ;
+	rdfs:label "Q DT10" ;
+	wgs84_pos:lat 4.8777015E1 ;
+	wgs84_pos:long 2.065453E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT12 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_DT12 a cuahsi:outputFlow .
+
+waves:Q_DT12 ssn:observes waves:outputflowQ_DT12 .
+
+waves:outputflowQ_DT12 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_DT12 a ssn:Sensor ;
+	rdfs:label "Q DT12" ;
+	wgs84_pos:lat 4.8778178E1 ;
+	wgs84_pos:long 2.095827E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT13 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_DT13 a cuahsi:outputFlow .
+
+waves:Q_DT13 ssn:observes waves:outputflowQ_DT13 .
+
+waves:outputflowQ_DT13 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_DT13 a ssn:Sensor ;
+	rdfs:label "Q DT13" ;
+	wgs84_pos:lat 4.875562E1 ;
+	wgs84_pos:long 2.089732E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_EG01 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_EG01 a cuahsi:outputFlow .
+
+waves:Q_EG01 ssn:observes waves:outputflowQ_EG01 .
+
+waves:outputflowQ_EG01 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_EG01 a ssn:Sensor ;
+	rdfs:label "Q EG01" ;
+	wgs84_pos:lat 4.879187E1 ;
+	wgs84_pos:long 2.048981E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_EG03 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_EG03 a cuahsi:outputFlow .
+
+waves:Q_EG03 ssn:observes waves:outputflowQ_EG03 .
+
+waves:outputflowQ_EG03 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_EG03 a ssn:Sensor ;
+	rdfs:label "Q EG03" ;
+	wgs84_pos:lat 4.8791402E1 ;
+	wgs84_pos:long 2.04318E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_EG04-1 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_EG04-1 a cuahsi:outputFlow .
+
+waves:Q_EG04-1 ssn:observes waves:outputflowQ_EG04-1 .
+
+waves:outputflowQ_EG04-1 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_EG04-1 a ssn:Sensor ;
+	rdfs:label "Q EG04-1" ;
+	wgs84_pos:lat 4.8791375E1 ;
+	wgs84_pos:long 2.042465E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_EG04-2 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_EG04-2 a cuahsi:outputFlow .
+
+waves:Q_EG04-2 ssn:observes waves:outputflowQ_EG04-2 .
+
+waves:outputflowQ_EG04-2 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_EG04-2 a ssn:Sensor ;
+	rdfs:label "Q EG04-2" ;
+	wgs84_pos:lat 4.8791375E1 ;
+	wgs84_pos:long 2.042465E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_EG05 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:outputflowQ_EG05 a cuahsi:outputFlow .
+
+waves:Q_EG05 ssn:observes waves:outputflowQ_EG05 .
+
+waves:outputflowQ_EG05 cuahsi:relatedTo waves:Ville_Nouvelle .
+
+waves:Q_EG05 a ssn:Sensor ;
+	rdfs:label "Q EG05" ;
+	wgs84_pos:lat 4.8789743E1 ;
+	wgs84_pos:long 2.040727E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:P_Point_Triple ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:pressureP_Point_Triple a cuahsi:Pressure .
+
+waves:P_Point_Triple ssn:observes waves:pressureP_Point_Triple ;
+	a ssn:Sensor ;
+	rdfs:label "P Point Triple" ;
+	wgs84_pos:lat 4.8768E1 ;
+	wgs84_pos:long 2.053E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PE_IV_Paves_800 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:pressurePE_IV_Pavés_800 a cuahsi:Pressure .
+
+waves:PE_IV_Paves_800 ssn:observes waves:pressurePE_IV_Pavés_800 ;
+	a ssn:Sensor ;
+	rdfs:label "PE IV Pavés 800" ;
+	wgs84_pos:lat 4.8782E1 ;
+	wgs84_pos:long 2.029E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PE_Usine_Gobert ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:pressurePE_Usine_Gobert a cuahsi:Pressure .
+
+waves:PE_Usine_Gobert ssn:observes waves:pressurePE_Usine_Gobert ;
+	a ssn:Sensor ;
+	rdfs:label "PE Usine Gobert" ;
+	wgs84_pos:lat 4.8795E1 ;
+	wgs84_pos:long 2.131E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_entree_reseau ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:chlorineRésiduel_chlore_entrée_réseau a cuahsi:Chlorine .
+
+waves:Residuel_chlore_entree_reseau ssn:observes waves:chlorineRésiduel_chlore_entrée_réseau ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore entrée réseau" ;
+	wgs84_pos:lat 4.8766283E1 ;
+	wgs84_pos:long 2.136241E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_bache_IV_PAVES ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:chlorineRésiduel_chlore_départ_bâche_IV_PAVES a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_bache_IV_PAVES ssn:observes waves:chlorineRésiduel_chlore_départ_bâche_IV_PAVES ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ bâche IV PAVES" ;
+	wgs84_pos:lat 4.8842392E1 ;
+	wgs84_pos:long 2.16694E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_reservoir_1500 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:chlorineRésiduel_chlore_départ_réservoir_1500 a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_reservoir_1500 ssn:observes waves:chlorineRésiduel_chlore_départ_réservoir_1500 ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ réservoir 1500" ;
+	wgs84_pos:lat 4.8779383E1 ;
+	wgs84_pos:long 2.026939E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_reservoir_4500 ssn:onPlatform waves:Ville_Nouvelle .
+
+waves:chlorineRésiduel_chlore_départ_réservoir_4500 a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_reservoir_4500 ssn:observes waves:chlorineRésiduel_chlore_départ_réservoir_4500 ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ réservoir 4500" ;
+	wgs84_pos:lat 4.8779383E1 ;
+	wgs84_pos:long 2.026939E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Pierrier_Laval a ssn:Platform ;
+	rdfs:label "Pierrier Laval" .
+
+waves:QS_Laval ssn:onPlatform waves:Pierrier_Laval .
+
+waves:inputflowQS_Laval a cuahsi:inputFlow .
+
+waves:QS_Laval ssn:observes waves:inputflowQS_Laval .
+
+waves:inputflowQS_Laval cuahsi:relatedTo waves:Pierrier_Laval .
+
+waves:QS_Laval a ssn:Sensor ;
+	rdfs:label "QS Laval" ;
+	wgs84_pos:lat 4.8840602E1 ;
+	wgs84_pos:long 2.202E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT01 ssn:onPlatform waves:Pierrier_Laval .
+
+waves:inputflowQ_DT01 a cuahsi:inputFlow .
+
+waves:Q_DT01 ssn:observes waves:inputflowQ_DT01 .
+
+waves:inputflowQ_DT01 cuahsi:relatedTo waves:Pierrier_Laval .
+
+waves:Q_DT01 a ssn:Sensor ;
+	rdfs:label "Q DT01" ;
+	wgs84_pos:lat 4.8856675E1 ;
+	wgs84_pos:long 2.21034E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:P_PM1 ssn:onPlatform waves:Pierrier_Laval .
+
+waves:pressureP_PM1 a cuahsi:Pressure .
+
+waves:P_PM1 ssn:observes waves:pressureP_PM1 ;
+	a ssn:Sensor ;
+	rdfs:label "P PM1" ;
+	wgs84_pos:lat 4.8841E1 ;
+	wgs84_pos:long 2.219E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Cl_PM1 ssn:onPlatform waves:Pierrier_Laval .
+
+waves:chlorineCl_PM1 a cuahsi:Chlorine .
+
+waves:Cl_PM1 ssn:observes waves:chlorineCl_PM1 ;
+	a ssn:Sensor ;
+	rdfs:label "Cl PM1" ;
+	wgs84_pos:lat 4.8841E1 ;
+	wgs84_pos:long 2.219E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_Laval ssn:onPlatform waves:Pierrier_Laval .
+
+waves:chlorineRésiduel_chlore_départ_Laval a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_Laval ssn:observes waves:chlorineRésiduel_chlore_départ_Laval ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ Laval" ;
+	wgs84_pos:lat 4.8840439E1 ;
+	wgs84_pos:long 2.202001E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Brezin a ssn:Platform ;
+	rdfs:label "Brezin" .
+
+waves:QS_Brezin ssn:onPlatform waves:Brezin .
+
+waves:inputflowQS_Brezin a cuahsi:inputFlow .
+
+waves:QS_Brezin ssn:observes waves:inputflowQS_Brezin .
+
+waves:inputflowQS_Brezin cuahsi:relatedTo waves:Brezin .
+
+waves:QS_Brezin a ssn:Sensor ;
+	rdfs:label "QS Brezin" ;
+	wgs84_pos:lat 4.8842392E1 ;
+	wgs84_pos:long 2.16694E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_Brezin ssn:onPlatform waves:Brezin .
+
+waves:chlorineRésiduel_chlore_départ_Brézin a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_Brezin ssn:observes waves:chlorineRésiduel_chlore_départ_Brézin ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ Brézin" ;
+	wgs84_pos:lat 4.8842258E1 ;
+	wgs84_pos:long 2.16679E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_bache_Brezin ssn:onPlatform waves:Brezin .
+
+waves:chlorineRésiduel_chlore_départ_bâche_Brézin a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_bache_Brezin ssn:observes waves:chlorineRésiduel_chlore_départ_bâche_Brézin ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ bâche Brézin" ;
+	wgs84_pos:lat 4.8849208E1 ;
+	wgs84_pos:long 2.198949E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Garches a ssn:Platform ;
+	rdfs:label "Garches" .
+
+waves:QS_Garches_Bd_Pasteur ssn:onPlatform waves:Garches .
+
+waves:inputflowQS_Garches_Bd_Pasteur a cuahsi:inputFlow .
+
+waves:QS_Garches_Bd_Pasteur ssn:observes waves:inputflowQS_Garches_Bd_Pasteur .
+
+waves:inputflowQS_Garches_Bd_Pasteur cuahsi:relatedTo waves:Garches .
+
+waves:QS_Garches_Bd_Pasteur a ssn:Sensor ;
+	rdfs:label "QS Garches Bd Pasteur" ;
+	wgs84_pos:lat 4.884902E1 ;
+	wgs84_pos:long 2.198637E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_Garches_Le_Pierrier ssn:onPlatform waves:Garches .
+
+waves:inputflowQS_Garches_Le_Pierrier a cuahsi:inputFlow .
+
+waves:QS_Garches_Le_Pierrier ssn:observes waves:inputflowQS_Garches_Le_Pierrier .
+
+waves:inputflowQS_Garches_Le_Pierrier cuahsi:relatedTo waves:Garches .
+
+waves:QS_Garches_Le_Pierrier a ssn:Sensor ;
+	rdfs:label "QS Garches Le Pierrier" ;
+	wgs84_pos:lat 4.884902E1 ;
+	wgs84_pos:long 2.198637E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT01 ssn:onPlatform waves:Garches .
+
+waves:outputflowQ_DT01 a cuahsi:outputFlow .
+
+waves:Q_DT01 ssn:observes waves:outputflowQ_DT01 .
+
+waves:outputflowQ_DT01 cuahsi:relatedTo waves:Garches .
+
+waves:P_DT01 ssn:onPlatform waves:Garches .
+
+waves:pressureP_DT01 a cuahsi:Pressure .
+
+waves:P_DT01 ssn:observes waves:pressureP_DT01 ;
+	a ssn:Sensor ;
+	rdfs:label "P DT01" ;
+	wgs84_pos:lat 4.8857E1 ;
+	wgs84_pos:long 2.21E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_Garches ssn:onPlatform waves:Garches .
+
+waves:chlorineRésiduel_chlore_départ_Garches a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_Garches ssn:observes waves:chlorineRésiduel_chlore_départ_Garches ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ Garches" ;
+	wgs84_pos:lat 4.8849109E1 ;
+	wgs84_pos:long 2.198784E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Guyancourt_Detendu a ssn:Platform ;
+	rdfs:label "Guyancourt Détendu" .
+
+waves:Q_DT09 ssn:onPlatform waves:Guyancourt_Detendu .
+
+waves:inputflowQ_DT09 a cuahsi:inputFlow .
+
+waves:Q_DT09 ssn:observes waves:inputflowQ_DT09 .
+
+waves:inputflowQ_DT09 cuahsi:relatedTo waves:Guyancourt_Detendu .
+
+waves:Q_DT10 ssn:onPlatform waves:Guyancourt_Detendu .
+
+waves:inputflowQ_DT10 a cuahsi:inputFlow .
+
+waves:Q_DT10 ssn:observes waves:inputflowQ_DT10 .
+
+waves:inputflowQ_DT10 cuahsi:relatedTo waves:Guyancourt_Detendu .
+
+waves:P_DT09 ssn:onPlatform waves:Guyancourt_Detendu .
+
+waves:pressureP_DT09 a cuahsi:Pressure .
+
+waves:P_DT09 ssn:observes waves:pressureP_DT09 ;
+	a ssn:Sensor ;
+	rdfs:label "P DT09" ;
+	wgs84_pos:lat 4.8772E1 ;
+	wgs84_pos:long 2.06E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:P_PM5 ssn:onPlatform waves:Guyancourt_Detendu .
+
+waves:pressureP_PM5 a cuahsi:Pressure .
+
+waves:P_PM5 ssn:observes waves:pressureP_PM5 ;
+	a ssn:Sensor ;
+	rdfs:label "P PM5" ;
+	wgs84_pos:lat 4.8786E1 ;
+	wgs84_pos:long 2.058E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Chlore_DT09 ssn:onPlatform waves:Guyancourt_Detendu .
+
+waves:chlorineChlore_DT09 a cuahsi:Chlorine .
+
+waves:Chlore_DT09 ssn:observes waves:chlorineChlore_DT09 ;
+	a ssn:Sensor ;
+	rdfs:label "Chlore DT09" ;
+	wgs84_pos:lat 4.8777015E1 ;
+	wgs84_pos:long 2.065453E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Louveciennes a ssn:Platform ;
+	rdfs:label "Louveciennes" .
+
+waves:Q_BE01 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_BE01 a cuahsi:inputFlow .
+
+waves:Q_BE01 ssn:observes waves:inputflowQ_BE01 .
+
+waves:inputflowQ_BE01 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_BE01 a ssn:Sensor ;
+	rdfs:label "Q BE01" ;
+	wgs84_pos:lat 4.8831593E1 ;
+	wgs84_pos:long 2.218952E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DT02 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_DT02 a cuahsi:inputFlow .
+
+waves:Q_DT02 ssn:observes waves:inputflowQ_DT02 .
+
+waves:inputflowQ_DT02 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_DT04 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_DT04 a cuahsi:inputFlow .
+
+waves:Q_DT04 ssn:observes waves:inputflowQ_DT04 .
+
+waves:inputflowQ_DT04 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_DT17 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_DT17 a cuahsi:inputFlow .
+
+waves:Q_DT17 ssn:observes waves:inputflowQ_DT17 .
+
+waves:inputflowQ_DT17 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_DE02 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_DE02 a cuahsi:inputFlow .
+
+waves:Q_DE02 ssn:observes waves:inputflowQ_DE02 .
+
+waves:inputflowQ_DE02 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_DE02 a ssn:Sensor ;
+	rdfs:label "Q DE02" ;
+	wgs84_pos:lat 4.885352E1 ;
+	wgs84_pos:long 2.105847E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_400G ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_400G a cuahsi:inputFlow .
+
+waves:Q_400G ssn:observes waves:inputflowQ_400G .
+
+waves:inputflowQ_400G cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_400G a ssn:Sensor ;
+	rdfs:label "Q 400G" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_400N ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_400N a cuahsi:inputFlow .
+
+waves:Q_400N ssn:observes waves:inputflowQ_400N .
+
+waves:inputflowQ_400N cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_400N a ssn:Sensor ;
+	rdfs:label "Q 400N" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_400V ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_400V a cuahsi:inputFlow .
+
+waves:Q_400V ssn:observes waves:inputflowQ_400V .
+
+waves:inputflowQ_400V cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_400V a ssn:Sensor ;
+	rdfs:label "Q 400V" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_600-300 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_600-300 a cuahsi:inputFlow .
+
+waves:Q_600-300 ssn:observes waves:inputflowQ_600-300 .
+
+waves:inputflowQ_600-300 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_600-300 a ssn:Sensor ;
+	rdfs:label "Q 600-300" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_600-900 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_600-900 a cuahsi:inputFlow .
+
+waves:Q_600-900 ssn:observes waves:inputflowQ_600-900 .
+
+waves:inputflowQ_600-900 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_600-900 a ssn:Sensor ;
+	rdfs:label "Q 600-900" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_700-650 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_700-650 a cuahsi:inputFlow .
+
+waves:Q_700-650 ssn:observes waves:inputflowQ_700-650 .
+
+waves:inputflowQ_700-650 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_700-650 a ssn:Sensor ;
+	rdfs:label "Q 700-650" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_800-900 ssn:onPlatform waves:Louveciennes .
+
+waves:inputflowQ_800-900 a cuahsi:inputFlow .
+
+waves:Q_800-900 ssn:observes waves:inputflowQ_800-900 .
+
+waves:inputflowQ_800-900 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_800-900 a ssn:Sensor ;
+	rdfs:label "Q 800-900" ;
+	wgs84_pos:lat 4.8851827E1 ;
+	wgs84_pos:long 2.110242E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:Q_DE03 ssn:onPlatform waves:Louveciennes .
+
+waves:outputflowQ_DE03 a cuahsi:outputFlow .
+
+waves:Q_DE03 ssn:observes waves:outputflowQ_DE03 .
+
+waves:outputflowQ_DE03 cuahsi:relatedTo waves:Louveciennes .
+
+waves:Q_DE03 a ssn:Sensor ;
+	rdfs:label "Q DE03" ;
+	wgs84_pos:lat 4.8850173E1 ;
+	wgs84_pos:long 2.111107E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_Garches ssn:onPlatform waves:Louveciennes .
+
+waves:outputflowQE_Garches a cuahsi:outputFlow .
+
+waves:QE_Garches ssn:observes waves:outputflowQE_Garches .
+
+waves:outputflowQE_Garches cuahsi:relatedTo waves:Louveciennes .
+
+waves:QE_Garches a ssn:Sensor ;
+	rdfs:label "QE Garches" ;
+	wgs84_pos:lat 4.884902E1 ;
+	wgs84_pos:long 2.198637E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_Laval ssn:onPlatform waves:Louveciennes .
+
+waves:outputflowQE_Laval a cuahsi:outputFlow .
+
+waves:QE_Laval ssn:observes waves:outputflowQE_Laval .
+
+waves:outputflowQE_Laval cuahsi:relatedTo waves:Louveciennes .
+
+waves:QE_Laval a ssn:Sensor ;
+	rdfs:label "QE Laval" ;
+	wgs84_pos:lat 4.8840602E1 ;
+	wgs84_pos:long 2.202E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_Bache_Brezin ssn:onPlatform waves:Louveciennes .
+
+waves:outputflowQE_Bache_Brezin a cuahsi:outputFlow .
+
+waves:QE_Bache_Brezin ssn:observes waves:outputflowQE_Bache_Brezin .
+
+waves:outputflowQE_Bache_Brezin cuahsi:relatedTo waves:Louveciennes .
+
+waves:QE_Bache_Brezin a ssn:Sensor ;
+	rdfs:label "QE Bache Brézin" ;
+	wgs84_pos:lat 4.8842258E1 ;
+	wgs84_pos:long 2.16679E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_Montbauron_reservoir_1 ssn:onPlatform waves:Louveciennes .
+
+waves:outputflowQE_Montbauron_reservoir_1 a cuahsi:outputFlow .
+
+waves:QE_Montbauron_reservoir_1 ssn:observes waves:outputflowQE_Montbauron_reservoir_1 .
+
+waves:outputflowQE_Montbauron_reservoir_1 cuahsi:relatedTo waves:Louveciennes .
+
+waves:QE_Montbauron_reservoir_1 a ssn:Sensor ;
+	rdfs:label "QE Montbauron réservoir 1" ;
+	wgs84_pos:lat 4.8802759E1 ;
+	wgs84_pos:long 2.138451E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_Montbauron_reservoir_2 ssn:onPlatform waves:Louveciennes .
+
+waves:outputflowQE_Montbauron_reservoir_2 a cuahsi:outputFlow .
+
+waves:QE_Montbauron_reservoir_2 ssn:observes waves:outputflowQE_Montbauron_reservoir_2 .
+
+waves:outputflowQE_Montbauron_reservoir_2 cuahsi:relatedTo waves:Louveciennes .
+
+waves:QE_Montbauron_reservoir_2 a ssn:Sensor ;
+	rdfs:label "QE Montbauron réservoir 2" ;
+	wgs84_pos:lat 4.8802759E1 ;
+	wgs84_pos:long 2.138451E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_Hubies_Bas ssn:onPlatform waves:Louveciennes .
+
+waves:outputflowQE_Hubies_Bas a cuahsi:outputFlow .
+
+waves:QE_Hubies_Bas ssn:observes waves:outputflowQE_Hubies_Bas .
+
+waves:outputflowQE_Hubies_Bas cuahsi:relatedTo waves:Louveciennes .
+
+waves:QE_Hubies_Bas a ssn:Sensor ;
+	rdfs:label "QE Hubies Bas" ;
+	wgs84_pos:lat 4.8836242E1 ;
+	wgs84_pos:long 2.142466E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:P_BE01_SEVESC ssn:onPlatform waves:Louveciennes .
+
+waves:pressureP_BE01_SEVESC a cuahsi:Pressure .
+
+waves:P_BE01_SEVESC ssn:observes waves:pressureP_BE01_SEVESC ;
+	a ssn:Sensor ;
+	rdfs:label "P BE01 SEVESC" ;
+	wgs84_pos:lat 4.8832E1 ;
+	wgs84_pos:long 2.219E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:P_PM6 ssn:onPlatform waves:Louveciennes .
+
+waves:pressureP_PM6 a cuahsi:Pressure .
+
+waves:P_PM6 ssn:observes waves:pressureP_PM6 ;
+	a ssn:Sensor ;
+	rdfs:label "P PM6" ;
+	wgs84_pos:lat 4.8827E1 ;
+	wgs84_pos:long 2.129E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PE_L-Brezin ssn:onPlatform waves:Louveciennes .
+
+waves:pressurePE_L-Brezin a cuahsi:Pressure .
+
+waves:PE_L-Brezin ssn:observes waves:pressurePE_L-Brezin ;
+	a ssn:Sensor ;
+	rdfs:label "PE L-Brezin" ;
+	wgs84_pos:lat 4.8842E1 ;
+	wgs84_pos:long 2.167E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PE_Garches ssn:onPlatform waves:Louveciennes .
+
+waves:pressurePE_Garches a cuahsi:Pressure .
+
+waves:PE_Garches ssn:observes waves:pressurePE_Garches ;
+	a ssn:Sensor ;
+	rdfs:label "PE Garches" ;
+	wgs84_pos:lat 4.8849E1 ;
+	wgs84_pos:long 2.199E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PE_Hubies_Bas ssn:onPlatform waves:Louveciennes .
+
+waves:pressurePE_Hubies_Bas a cuahsi:Pressure .
+
+waves:PE_Hubies_Bas ssn:observes waves:pressurePE_Hubies_Bas ;
+	a ssn:Sensor ;
+	rdfs:label "PE Hubies Bas" ;
+	wgs84_pos:lat 4.8836E1 ;
+	wgs84_pos:long 2.142E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PE_Laval ssn:onPlatform waves:Louveciennes .
+
+waves:pressurePE_Laval a cuahsi:Pressure .
+
+waves:PE_Laval ssn:observes waves:pressurePE_Laval ;
+	a ssn:Sensor ;
+	rdfs:label "PE Laval" ;
+	wgs84_pos:lat 4.8841E1 ;
+	wgs84_pos:long 2.202E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:PE_Montbauron ssn:onPlatform waves:Louveciennes .
+
+waves:pressurePE_Montbauron a cuahsi:Pressure .
+
+waves:PE_Montbauron ssn:observes waves:pressurePE_Montbauron ;
+	a ssn:Sensor ;
+	rdfs:label "PE Montbauron" ;
+	wgs84_pos:lat 4.8803E1 ;
+	wgs84_pos:long 2.139E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:P_Porte_St_Antoine ssn:onPlatform waves:Louveciennes .
+
+waves:pressureP_Porte_St_Antoine a cuahsi:Pressure .
+
+waves:P_Porte_St_Antoine ssn:observes waves:pressureP_Porte_St_Antoine ;
+	a ssn:Sensor ;
+	rdfs:label "P Porte St Antoine" ;
+	wgs84_pos:lat 4.882E1 ;
+	wgs84_pos:long 2.115E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:P_Ville_dAvray ssn:onPlatform waves:Louveciennes .
+
+<http://waves.org/resource#pressureP_Ville_d'Avray> a cuahsi:Pressure .
+
+waves:P_Ville_dAvray ssn:observes <http://waves.org/resource#pressureP_Ville_d'Avray> ;
+	a ssn:Sensor ;
+	rdfs:label "P Ville d'Avray" ;
+	wgs84_pos:lat 4.8826E1 ;
+	wgs84_pos:long 2.189E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:P_PM8 ssn:onPlatform waves:Louveciennes .
+
+waves:pressureP_PM8 a cuahsi:Pressure .
+
+waves:P_PM8 ssn:observes waves:pressureP_PM8 ;
+	a ssn:Sensor ;
+	rdfs:label "P PM8" ;
+	wgs84_pos:lat 4.8816E1 ;
+	wgs84_pos:long 2.08E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:P_BE01_VE ssn:onPlatform waves:Louveciennes .
+
+waves:pressureP_BE01_VE a cuahsi:Pressure .
+
+waves:P_BE01_VE ssn:observes waves:pressureP_BE01_VE ;
+	a ssn:Sensor ;
+	rdfs:label "P BE01 VE" ;
+	wgs84_pos:lat 4.8832E1 ;
+	wgs84_pos:long 2.219E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Cl_PM6 ssn:onPlatform waves:Louveciennes .
+
+waves:chlorineCl_PM6 a cuahsi:Chlorine .
+
+waves:Cl_PM6 ssn:observes waves:chlorineCl_PM6 ;
+	a ssn:Sensor ;
+	rdfs:label "Cl PM6" ;
+	wgs84_pos:lat 4.8827E1 ;
+	wgs84_pos:long 2.129E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Cl_PM8 ssn:onPlatform waves:Louveciennes .
+
+waves:chlorineCl_PM8 a cuahsi:Chlorine .
+
+waves:Cl_PM8 ssn:observes waves:chlorineCl_PM8 ;
+	a ssn:Sensor ;
+	rdfs:label "Cl PM8" ;
+	wgs84_pos:lat 4.8816E1 ;
+	wgs84_pos:long 2.08E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:pH_PM8 ssn:onPlatform waves:Louveciennes .
+
+waves:phpH_PM8 a cuahsi:pH .
+
+waves:pH_PM8 ssn:observes waves:phpH_PM8 ;
+	a ssn:Sensor ;
+	rdfs:label "pH PM8" ;
+	wgs84_pos:lat 4.8816E1 ;
+	wgs84_pos:long 2.08E0 ;
+	qudt:unit qudtunit:pH ;
+	qudt:scale 1.0E0 .
+
+waves:Gobert a ssn:Platform ;
+	rdfs:label "Gobert" .
+
+waves:QS_Gobert_vers_Buc_La_Boulie ssn:onPlatform waves:Gobert .
+
+waves:inputflowQS_Gobert_vers_Buc_La_Boulie a cuahsi:inputFlow .
+
+waves:QS_Gobert_vers_Buc_La_Boulie ssn:observes waves:inputflowQS_Gobert_vers_Buc_La_Boulie .
+
+waves:inputflowQS_Gobert_vers_Buc_La_Boulie cuahsi:relatedTo waves:Gobert .
+
+waves:QS_Gobert_vers_Buc_La_Boulie a ssn:Sensor ;
+	rdfs:label "QS Gobert vers Buc La Boulie" ;
+	wgs84_pos:lat 4.8792855E1 ;
+	wgs84_pos:long 2.132984E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_Gobert_vers_BucLesLoges ssn:onPlatform waves:Gobert .
+
+waves:inputflowQS_Gobert_vers_BucLesLoges a cuahsi:inputFlow .
+
+waves:QS_Gobert_vers_BucLesLoges ssn:observes waves:inputflowQS_Gobert_vers_BucLesLoges .
+
+waves:inputflowQS_Gobert_vers_BucLesLoges cuahsi:relatedTo waves:Gobert .
+
+waves:QS_Gobert_vers_BucLesLoges a ssn:Sensor ;
+	rdfs:label "QS Gobert vers BucLesLoges" ;
+	wgs84_pos:lat 4.8792855E1 ;
+	wgs84_pos:long 2.132984E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_Gobert_vers_Versailles ssn:onPlatform waves:Gobert .
+
+waves:inputflowQS_Gobert_vers_Versailles a cuahsi:inputFlow .
+
+waves:QS_Gobert_vers_Versailles ssn:observes waves:inputflowQS_Gobert_vers_Versailles .
+
+waves:inputflowQS_Gobert_vers_Versailles cuahsi:relatedTo waves:Gobert .
+
+waves:QS_Gobert_vers_Versailles a ssn:Sensor ;
+	rdfs:label "QS Gobert vers Versailles" ;
+	wgs84_pos:lat 4.8792855E1 ;
+	wgs84_pos:long 2.132984E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:P_PM4 ssn:onPlatform waves:Gobert .
+
+waves:pressureP_PM4 a cuahsi:Pressure .
+
+waves:P_PM4 ssn:observes waves:pressureP_PM4 ;
+	a ssn:Sensor ;
+	rdfs:label "P PM4" ;
+	wgs84_pos:lat 4.8775E1 ;
+	wgs84_pos:long 2.133E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_Chlore_vers_Gobert ssn:onPlatform waves:Gobert .
+
+waves:chlorineResiduel_Chlore_vers_Gobert a cuahsi:Chlorine .
+
+waves:Residuel_Chlore_vers_Gobert ssn:observes waves:chlorineResiduel_Chlore_vers_Gobert ;
+	a ssn:Sensor ;
+	rdfs:label "Residuel Chlore vers Gobert" ;
+	wgs84_pos:lat 4.8802759E1 ;
+	wgs84_pos:long 2.138451E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_Gobert_R1 ssn:onPlatform waves:Gobert .
+
+waves:chlorineRésiduel_chlore_départ_Gobert_R1 a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_Gobert_R1 ssn:observes waves:chlorineRésiduel_chlore_départ_Gobert_R1 ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ Gobert R1" ;
+	wgs84_pos:lat 4.8792855E1 ;
+	wgs84_pos:long 2.132984E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_Gobert_R4 ssn:onPlatform waves:Gobert .
+
+waves:chlorineRésiduel_chlore_départ_Gobert_R4 a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_Gobert_R4 ssn:observes waves:chlorineRésiduel_chlore_départ_Gobert_R4 ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ Gobert R4" ;
+	wgs84_pos:lat 4.8834599E1 ;
+	wgs84_pos:long 2.144864E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Satory a ssn:Platform ;
+	rdfs:label "Satory" .
+
+waves:Q_DT12 ssn:onPlatform waves:Satory .
+
+waves:inputflowQ_DT12 a cuahsi:inputFlow .
+
+waves:Q_DT12 ssn:observes waves:inputflowQ_DT12 .
+
+waves:inputflowQ_DT12 cuahsi:relatedTo waves:Satory .
+
+waves:Q_DT13 ssn:onPlatform waves:Satory .
+
+waves:inputflowQ_DT13 a cuahsi:inputFlow .
+
+waves:Q_DT13 ssn:observes waves:inputflowQ_DT13 .
+
+waves:inputflowQ_DT13 cuahsi:relatedTo waves:Satory .
+
+waves:QS_Satory_vers_IV_Paves ssn:onPlatform waves:Satory .
+
+waves:inputflowQS_Satory_vers_IV_Paves a cuahsi:inputFlow .
+
+waves:QS_Satory_vers_IV_Paves ssn:observes waves:inputflowQS_Satory_vers_IV_Paves .
+
+waves:inputflowQS_Satory_vers_IV_Paves cuahsi:relatedTo waves:Satory .
+
+waves:QS_Satory_vers_IV_Paves a ssn:Sensor ;
+	rdfs:label "QS Satory vers IV Pavés" ;
+	wgs84_pos:lat 4.8788135E1 ;
+	wgs84_pos:long 2.124626E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QS_Satory_vers_Toussus ssn:onPlatform waves:Satory .
+
+waves:inputflowQS_Satory_vers_Toussus a cuahsi:inputFlow .
+
+waves:QS_Satory_vers_Toussus ssn:observes waves:inputflowQS_Satory_vers_Toussus .
+
+waves:inputflowQS_Satory_vers_Toussus cuahsi:relatedTo waves:Satory .
+
+waves:QS_Satory_vers_Toussus a ssn:Sensor ;
+	rdfs:label "QS Satory vers Toussus" ;
+	wgs84_pos:lat 4.8788135E1 ;
+	wgs84_pos:long 2.124626E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:QE_Bache_IV_Paves ssn:onPlatform waves:Satory .
+
+waves:outputflowQE_Bache_IV_Paves a cuahsi:outputFlow .
+
+waves:QE_Bache_IV_Paves ssn:observes waves:outputflowQE_Bache_IV_Paves .
+
+waves:outputflowQE_Bache_IV_Paves cuahsi:relatedTo waves:Satory .
+
+waves:QE_Bache_IV_Paves a ssn:Sensor ;
+	rdfs:label "QE Bache IV Pavés" ;
+	wgs84_pos:lat 4.8781644E1 ;
+	wgs84_pos:long 2.029267E0 ;
+	qudt:unit qudtunit:CubicMeterPerHour ;
+	qudt:scale 1.0E0 .
+
+waves:PE_IV_Paves_800 ssn:onPlatform waves:Satory .
+
+waves:Residuel_Chlore_vers_Satory ssn:onPlatform waves:Satory .
+
+waves:chlorineResiduel_Chlore_vers_Satory a cuahsi:Chlorine .
+
+waves:Residuel_Chlore_vers_Satory ssn:observes waves:chlorineResiduel_Chlore_vers_Satory ;
+	a ssn:Sensor ;
+	rdfs:label "Residuel Chlore vers Satory" ;
+	wgs84_pos:lat 4.8802759E1 ;
+	wgs84_pos:long 2.138451E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Residuel_chlore_depart_Satory ssn:onPlatform waves:Satory .
+
+waves:chlorineRésiduel_chlore_départ_Satory a cuahsi:Chlorine .
+
+waves:Residuel_chlore_depart_Satory ssn:observes waves:chlorineRésiduel_chlore_départ_Satory ;
+	a ssn:Sensor ;
+	rdfs:label "Résiduel chlore départ Satory" ;
+	wgs84_pos:lat 4.8788135E1 ;
+	wgs84_pos:long 2.124626E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .
+
+waves:Hubies_Detendu a ssn:Platform ;
+	rdfs:label "Hubies Détendu" .
+
+waves:Q_DT18 ssn:onPlatform waves:Hubies_Detendu .
+
+waves:inputflowQ_DT18 a cuahsi:inputFlow .
+
+waves:Q_DT18 ssn:observes waves:inputflowQ_DT18 .
+
+waves:inputflowQ_DT18 cuahsi:relatedTo waves:Hubies_Detendu .
+
+waves:P_PM7 ssn:onPlatform waves:Hubies_Detendu .
+
+waves:pressureP_PM7 a cuahsi:Pressure .
+
+waves:P_PM7 ssn:observes waves:pressureP_PM7 ;
+	a ssn:Sensor ;
+	rdfs:label "P PM7" ;
+	wgs84_pos:lat 4.8843E1 ;
+	wgs84_pos:long 2.066E0 ;
+	qudt:unit qudtunit:Bar ;
+	qudt:scale 1.0E0 .
+
+waves:Cl_PM7 ssn:onPlatform waves:Hubies_Detendu .
+
+waves:chlorineCl_PM7 a cuahsi:Chlorine .
+
+waves:Cl_PM7 ssn:observes waves:chlorineCl_PM7 ;
+	a ssn:Sensor ;
+	rdfs:label "Cl PM7" ;
+	wgs84_pos:lat 4.8843E1 ;
+	wgs84_pos:long 2.066E0 ;
+	qudt:unit qudtunit:MilligramPerLiter ;
+	qudt:scale 1.0E0 .

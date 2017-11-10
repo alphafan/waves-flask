@@ -1,0 +1,1640 @@
+<!doctype html>
+
+<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/static/css/fileinput.min.css">
+<link rel="stylesheet" type="text/css" href="/static/css/page-header.css">
+<link rel="stylesheet" type="text/css" href="/static/css/workflow.css">
+<style>
+.tab-pane.fade {
+    margin-bottom: 25px;
+}
+</style>
+
+<!-- Navbar -->
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Waves Platform</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home <span class="sr-only">Home</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Project <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/create-project">Create a Project</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/project-space">Project Space</a></li>
+          </ul>
+        </li>
+        <li><a href="/about">About <span class="sr-only">About</span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End of Navbar -->
+
+<!-- Content -->
+<div class="container" style="margin-top:60px">
+
+<!-- Head -->
+<div class="header clearfix">
+<nav>
+  <ul class="nav nav-pills pull-right" id="page_tab">
+    <li role="presentation" class="active"><a data-toggle="tab" href="#project">Project Info</a></li>
+    <li role="presentation"><a data-toggle="tab" href="#workflow">Workflow</a></li>
+    <li role="presentation"><a data-toggle="tab" href="#monitoring">Monitoring</a></li>
+  </ul>
+</nav>
+<h3 class="text-muted">
+  <img src="/static/img/logo.png" style="height: 40px; padding-right: 20px; margin-right:10px; border-right: solid 1px gray">
+  Create a Project
+</h3>
+</div>
+<!-- End of Head -->
+
+<!-- Main content -->
+<div class="tab-content">
+
+<!-- Panel 1 for enter project info -->
+<div id="project" class="tab-pane fade active in">
+<h3>Step 1 : Set Project Information </h3>
+<div style="margin:25px 0 25px 0;">
+  <form class="form-horizontal" role="form" id="project_form">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Project Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" name="name" id="name" placeholder="Project Name" value="first-tests">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="description">Description:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" name="description" id="description" placeholder="Enter description for your project" value="This is our first demo project for test.">
+      </div>
+    </div>
+    <div class="form-group">        
+      <label class="control-label col-sm-2" for="license">Data License:</label>
+      <div class="col-sm-10">          
+          <select class="form-control" id="license" name="license">
+            <option value="Open Data Common Open Database License (CC BY 3.0)">Open Data Common Open Database License (CC BY 3.0)</option>
+            <option value="Attribution, 3.0 not transposed (CC BY-SA 3.0)">Attribution, 3.0 not transposed (CC BY-SA 3.0)</option>
+            <option value="Paternity - Sharing identity, 3.0 not transposed (CC BY-ND 3.0)">Paternity - Sharing identity, 3.0 not transposed (CC BY-ND 3.0)</option>
+            <option value="Paternity - No modification, 3.0 not transposed (CC BY 3.0)">Paternity - No modification, 3.0 not transposed (CC BY 3.0)</option>
+            <option value="Paternity - No commercial use, 3.0 not transposed (CC BY 3.0)">Paternity - No commercial use, 3.0 not transposed (CC BY 3.0)</option>
+            <option value="Paternity - No commercial use - Sharing identity, 3.0 not transposed (CC BY 3.0)">Paternity - No commercial use - Sharing identity, 3.0 not transposed (CC BY 3.0)</option>
+            <option value="Paternity - No commercial use - No modification, 3.0 not transposed (CC BY 3.0)">Paternity - No commercial use - No modification, 3.0 not transposed (CC BY 3.0)</option>
+          </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="version">Version ID:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" name="version" id="version" placeholder="Give a version ID for your project" value="1.0.0">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-default" name="next_tab">Next Step</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+<!-- End of Panel 1 -->
+
+<!-- Panel 2 for enter workflow info -->
+<div id="workflow" class="tab-pane fade">
+<h3>
+    Step 2 : Create Workflow 
+    <button class="btn btn-default pull-right" id="import_workflow">Import Workflow</button>
+    <button class="btn btn-default pull-right" id="delete_all_workflow">Delete all Workflow</button>
+    <a class="btn btn-info pull-right" data-toggle="modal" data-target="#chooseClockSettingsModal">Clock Settings</a>
+</h3>
+<div class="row" style="margin-top: 25px; border: 3px solid #f5f5f5">
+
+<!-- Workflow space -->
+<div class="col-sm-10" id="panel" style="height: 550px; background-color:#fcf8e3;border-right: 2px solid #f5f5f5;">
+<h5>Workflow Space</h5>
+</div>
+<!-- End of Workflow Space -->
+
+<!-- Component selector -->
+<div class="col-sm-2" id="selector">
+<div class="panel-group" id="accordion" style="margin-bottom: 0px">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse0">
+        Stream Source</a>
+      </h4>
+    </div>
+    <div id="collapse0" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item" name='RawSource'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/raw_source.png">
+               </div>
+               <div class="media-body">
+                   Raw Source
+               </div>
+              </div>
+            </li>
+          <li class="list-group-item" name='RawStream'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/raw_stream.png">
+               </div>
+               <div class="media-body">
+                   Raw Stream
+               </div>
+              </div>
+            </li>
+          <li class="list-group-item" name='Source'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/source.png">
+               </div>
+               <div class="media-body">
+                   RDF Source
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name='Stream'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/rdf_stream.png">
+               </div>
+               <div class="media-body">
+                   RDF Stream
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name='Sink'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/sink.png">
+               </div>
+               <div class="media-body">
+                   Stream Sink
+               </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Static Feed</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item" name='RdfFeed'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/document_feed.png">
+               </div>
+               <div class="media-body">
+                   Document Feed
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name='RdfStore'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow//triple_store.png">
+               </div>
+               <div class="media-body">
+                   Triple Store
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name='SparqlFeed'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/sparql_feed.png">
+               </div>
+               <div class="media-body">
+                    Sparql Feed
+               </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Functions</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item" name="Converter">
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/rdf_converter.png">
+               </div>
+               <div class="media-body">
+                    RDF Converter
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name="Sampler">
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/sampler.png">
+               </div>
+               <div class="media-body">
+                    Sampler
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name="Cleaner">
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/cleaner.png">
+               </div>
+               <div class="media-body">
+                    Cleaner
+               </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Waves Filter</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item" name="Filter">
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/breizh.png">
+               </div>
+               <div class="media-body">
+                    Breizh
+               </div>
+            </div>
+          </li>
+          <li class="list-group-item" name="Strider">
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/strider.png">
+               </div>
+               <div class="media-body">
+                    Strider
+               </div>
+            </div>
+          </li>
+          <li class="list-group-item disable text-muted" name="DRSS" data-toggle="tooltip" title="Coming soon.">
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/drss.png">
+               </div>
+               <div class="media-body">
+                    DRSS
+               </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Data Analysis</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item" name="AnomalyDetection">
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/anomaly_detection.png">
+               </div>
+               <div class="media-body">
+                    Anomaly Detection
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name='Scouter'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/scouter.png">
+               </div>
+               <div class="media-body">
+                    Scouter
+               </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        External Sources</a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item" name='RSSFeed'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/rss_feed.png">
+               </div>
+               <div class="media-body">
+                    RSS Feed
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name='FacebookFeed'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/facebook_feed.png">
+               </div>
+               <div class="media-body">
+                    Facebook Feed
+               </div>
+              </div>
+          </li>
+          <li class="list-group-item" name='OpenDataFeed'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/open_data_feed.png">
+               </div>
+               <div class="media-body">
+                    Open Data Feed
+               </div>
+            </div>
+          </li>
+          <li class="list-group-item" name='TwitterFeed'>
+             <div class="media">
+               <div class="media-left">
+                   <img src="/static/img/workflow/twitter_feed.png">
+               </div>
+               <div class="media-body">
+                    Twitter Feed
+               </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- End of Component Selector -->
+
+</div>
+
+<!-- Component Settings-->
+<div class="row" id="cmpt_settings">
+<div class="col-xs-12">
+<h5>Component Settings</h5>
+<form class="form-horizontal hide" type="RawSourceSettings" cmpt_id="">
+  <div class="settings-title">
+    Raw Source Settings
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="inputType">Input Type :</label>
+    <div class="col-sm-10">
+      <div class="radio">
+        <label><input type="radio" name="inputType" value="Folder" checked/>Local CSV File: Upload raw source from local file system to generate raw stream. </label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="inputType" value="WebServices" disabled/>Web Service: Raw stream generated from remote web services.</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="location">Input Files :</label>
+    <div class="col-sm-8">
+        <input name="location" type="file" class="file" data-show-preview="false" multiple>
+        <small class="text-muted">Select File to Upload. </small>
+    </div>
+    </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="inputPattern">Input Pattern :</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" name="inputPattern" placeholder=".csv$" value=".csv$">
+        <small class="text-muted">Input Data Format </small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="fetchFrequency">Fetch Frequency :</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" name="fetchFrequency" placeholder="PT5S" value="PT5S">
+        <small class="text-muted">Frequency of Reading Data </small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="realTimeData">Real-Time Data ? </label>
+    <div class="col-sm-10">
+      <div class="radio col-sm-1">
+        <label>
+          <input type="radio" name="realTimeData" value="True">Yes
+        </label>
+      </div>
+      <div class="radio col-sm-1">
+        <label>
+          <input type="radio" name="realTimeData" value="False" checked/>No
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="RawStreamSettings" cmpt_id="">
+  <div class="settings-title">
+    Feed workflow with Raw Data Stream
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <h5>Raw Stream doesn't require any configuration.</h5>
+</form>
+<form class="form-horizontal hide" type="SourceSettings" cmpt_id="">
+  <div class="settings-title">
+    Feed RDF Stream with Source
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="inputFolder">Source Files :</label>
+    <div class="col-sm-8">
+        <input name="inputFolder" type="file" class="file"  data-show-preview="false" multiple>
+        <small class="text-muted">Select Data Folder to Upload to Cluster. </small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="inputPattern">Input Pattern :</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" name="inputPattern" placeholder=".n3$" value=".n3$">
+        <small class="text-muted">RDF Document Format Short Name</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="eventRate">Event Rate :</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" name="eventRate" placeholder="PT2S" value="PT2S">
+        <small class="text-muted">Rate of Sending Event</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="numTasks">Number Tasks :</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" name="numTasks" placeholder="4" value="4">
+        <small class="text-muted">Number of Tasks</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="StreamSettings" cmpt_id="">
+  <div class="settings-title">
+    RDF Stream Settings
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <h5>RDF Stream doesn't require any configuration.</h5>
+</form>
+<form class="form-horizontal hide" type="RdfFeedSettings" cmpt_id="">
+  <div class="settings-title">
+    Feed your workflow with static RDF Document
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="label">Feed Label :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="label" type="text" placeholder="doc1Feed" value="doc1Feed">
+        <small class="text-muted">Give a name for your feed.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="feedType">Feed Type :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="feedType" type="text" placeholder="RdfDocument" value="RdfDocument">
+        <small class="text-muted">Document Feed Type.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="location">Upload File :</label>
+    <div class="col-sm-8">
+        <input name="location" type="file" class="file"  data-show-preview="false" multiple>
+        <small class="text-muted">Select File to Upload to Cluster. </small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="refreshInterval">Refresh Interval :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="refreshInterval" type="text" placeholder="PT2M" value="PT2M">
+        <small class="text-muted">Refresh Interval.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="RdfStoreSettings" cmpt_id="">
+  <div class="settings-title">
+    Feed your workflow with Triple Store
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="label">Store Name :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="label" type="text" placeholder="datalift-waves" value="datalift-waves">
+        <small class="text-muted">Give a name for your RDF Store feed.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="storeType">Input Type :</label>
+    <div class="col-sm-10">
+      <div class="radio">
+        <label><input type="radio" name="storeType" value="sesame" checked/>RDF4J Triple Store. </label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="storeType" value="virtuoso">Virtuoso Triple Store.</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="location">Location :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="location" type="text" placeholder="http://localhost:9091/openrdf-sesame/repositories/waves" value="http://localhost:9091/openrdf-sesame/repositories/waves">
+        <small class="text-muted">Enter the url of Triple Store Repository.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="SparqlFeedSettings" cmpt_id="">
+  <div class="settings-title">
+    Static Data Feed from SPARQL Endpoint
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="label">Feed Name :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="label" type="text" placeholder="sparql1Feed" value="sparql1Feed">
+        <small class="text-muted">Give a name for your SPARQL Feed.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="location">Location :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="location" type="text" placeholder="http://localhost:9091/sparql" value="http://localhost:9091/sparql">
+        <small class="text-muted">Enter the url of SPARQL Endpoint.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="feedType">Feed Type :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="feedType" type="text" placeholder="SPARQL" value="SPARQL">
+        <small class="text-muted">Specify the Static Feed Type.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="refreshInterval">Refresh Interval :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="refreshInterval" type="text" placeholder="How long will the SPARQL Endpoint be refreshed" value="PT2M">
+        <small class="text-muted">Please give the value according to the requirement of XSD Duration Format</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="query">Query :</label>
+    <div class="col-sm-8">
+        <textarea class="form-control" name="query" rows="8" type="text" placeholder="SPARQL Construct Query">CONSTRUCT { ?s ?p ?o . } 
+WHERE { GRAPH &lt;http://localhost:9091/kiosques&gt; { ?s ?p ?o . } }
+        </textarea>
+        <small class="text-muted">Waves SPARQL Construct Query</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="ConverterSettings" cmpt_id="">
+  <div class="settings-title">
+    Conversion Settings from Raw Stream to RDF Stream
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="model">Conversion Model :</label>
+    <div class="col-sm-8">
+        <textarea class="form-control" name="model" rows="10" type="text" placeholder="SPARQL Construct Query">
+@prefix ssn:&lt;http://purl.oclc.org/NET/ssnx/ssn#> . 
+@prefix qudt:&lt;http://data.nasa.gov/qudt/owl/qudt#> . 
+@prefix rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix waves:&lt;http://example.org/waves#> .
+$eventId 
+    a ssn:SensorOutput;
+    ssn:isProducedBy $uri(?id);
+    ssn:hasValue $bnode(?obsId);
+    ssn:startTime $timestamp .
+$bnode(?obsId)
+    a ssn:ObservationValue ;
+    qudt:numericValue $double(?value, ?unit, ?scale) ;
+    qudt:unit $value(?unit) .
+        </textarea>
+        <small class="text-muted">Conversion Model</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="query">Conversion Query :</label>
+    <div class="col-sm-8">
+        <textarea class="form-control" name="query" rows="10" type="text" placeholder="SPARQL Construct Query">
+prefix rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#> 
+prefix ssn:&lt;http://purl.oclc.org/NET/ssnx/ssn#> 
+prefix qudt:&lt;http://data.nasa.gov/qudt/owl/qudt#> 
+select * 
+where { 
+    ?sensorUri rdf:type ssn:Sensor ; 
+        qudt:unit ?unit ; 
+        rdfs:label ?sensorName . 
+}
+        </textarea>
+        <small class="text-muted">Conversion Query</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="SinkSettings" cmpt_id="">
+  <div class="settings-title">
+    Sink Output Stream
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="numTasks">Number Task :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="numTasks" type="text" placeholder="4" value="4">
+        <small class="text-muted">Number of Task to execute the sink</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="sinkType">Sink Type :</label>
+    <div class="col-sm-10">
+      <div class="radio">
+        <label><input type="radio" name="sinkType" value="File" checked/>Sink the output streaming data into a file. </label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="sinkType" value="TripleStore">Use a triple store to save the output streaming data. If use triple store to sink, please connect this component to a triple store.</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group hide">
+    <label class="control-label col-sm-2" for="sinkGate">Sink Gate :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="sinkGate" type="text" placeholder="kafka" value="kafka">
+        <small class="text-muted">The sink gate is kafka is only used for dev mode. We need this parameter for dev mode but not for prod mode. I hide this parameter here since it will make the user confisued. For reason why we need this parameter, and why I put it here, it's hard to explain, please contact Houda.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="outputFile">Output File Name :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="outputFile" type="text" placeholder="stdout" value="stdout">
+        <small class="text-muted">Name of Output file.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="outputFormat">Output Format :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="outputFormat" type="text" placeholder="Turtle" value="Turtle">
+        <small class="text-muted">Specify the output Format</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="CompresserSettings" cmpt_id="">
+  <div class="settings-title">
+    RDSZ Compression Settings
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="SamplerSettings" cmpt_id="">
+  <div class="settings-title">
+    Quantitative Filter for Stream Reducing
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="samplingMethod">Sampling Method :</label>
+    <div class="col-sm-10">
+      <div class="radio">
+        <label><input type="radio" name="samplingMethod" value="deterministicSampling">Deterministic Sampling. </label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="samplingMethod" value="randomSampling" checked/>Random Sampling.</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="samplingParameter">Parameter :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="samplingParameter" type="text" placeholder="98" value="98">
+        <small class="text-muted">Parameter that is used for sampling method. </small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="CleanerSettings" cmpt_id="">
+  <div class="settings-title">
+    Qualitative Filter for Stream Cleaning
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="timeIntervalTrainingLength">Training Length :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="timeIntervalTrainingLength" type="number" placeholder="10" value="10">
+        <small class="text-muted">Number of Seconds for Training Length.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="allowedDuration">Allowed Duration :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="allowedDuration" type="text" placeholder="02:00:00" value="02:00:00">
+        <small class="text-muted">Allowed Duration</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="initTime">Init Time :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="initTime" type="text" placeholder="23:00:00" value="23:00:00">
+        <small class="text-muted">Initial Time</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="ScouterSettings" cmpt_id="">
+  <div class="settings-title">
+    Configure Web Crawler to Interpreter Data Analysis Result
+  </div>
+  <h5>Use external data sources to explain the analysis result. Scouter doesn't require any configurations.</h5>
+</form>
+<form class="form-horizontal hide" type="FilterSettings" cmpt_id="">
+  <div class="settings-title">
+    Configure Waves Filter to Process RDF Stream
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="stepRate">Step Rate :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="stepRate" type="text" placeholder="Step Rate ..." value="PT5S">
+        <small class="text-muted">Processing Frequency.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="query">Query :</label>
+    <div class="col-sm-8">
+        <textarea class="form-control" name="query" rows="10" type="text" placeholder="SPARQL Construct Query">
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; 
+PREFIX qudt:&lt;http://data.nasa.gov/qudt/owl/qudt#&gt; 
+PREFIX waves:&lt;http://waves.org/resource#&gt; 
+PREFIX ssn:&lt;http://purl.oclc.org/NET/ssnx/ssn#&gt; 
+PREFIX cuahsi:&lt;http://his.cuahsi.org/ontology/cuahsi#&gt;
+CONSTRUCT { 
+   ?eventId waves:time ?time .   
+   ?eventId a waves:Event .  
+   ?eventId waves:observes  _:o . 
+   _:o waves:relatedSector ?sector .  
+   _:o qudt:inputSum ?inputSum .
+} 
+WHERE {  
+    SELECT DISTINCT ?sector ?inputSum ?time  
+    WHERE {  
+            {  
+                SELECT DISTINCT ?sector (SUM(?inputValue) AS ?inputSum) ?time  
+                WHERE {      
+                    ?inputSensor ssn:onPlatform ?sector . 
+                    ?inputSensor ssn:observes ?inputFlow . 
+                    ?inputFlow cuahsi:relatedTo ?sector .               
+                    ?inputFlow a cuahsi:inputFlow . 
+                    ?inputEvent ssn:isProducedBy ?inputSensor . 
+                    ?inputEvent ssn:hasValue ?inputObservationValue . 
+                    ?inputEvent ssn:startTime ?time . 
+                    ?inputObservationValue qudt:numericValue ?inputValue .
+                } GROUP BY ?sector ?time order by ?sector
+            }
+        } 
+}
+        </textarea>
+        <small class="text-muted">Waves SPARQL Construct Query</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="StriderSettings" cmpt_id="">
+  <div class="settings-title">
+    Configure Strider Filter to Process RDF Stream
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="stepRate">Step Rate :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="stepRate" type="text" placeholder="Step Rate ..." value="PT2S">
+        <small class="text-muted">Processing Frequency.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="fetchFrequency">Fetch Frequency :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="fetchFrequency" type="text" placeholder="Fetch Frequency ..." value="PT2S">
+        <small class="text-muted">Window Size.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="batch">Batch Size :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="batch" type="text" placeholder="Batch Size ..." value="PT2S">
+        <small class="text-muted">Batch Size.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="reasoning">Reasoning :</label>
+    <div class="col-sm-10">
+      <div class="radio">
+        <label><input type="radio" name="reasoning" value="true"/>True. </label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="reasoning" value="false" checked/>False.</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="query">Query :</label>
+    <div class="col-sm-8">
+        <textarea class="form-control" name="query" rows="10" type="text" placeholder="SPARQL Construct Query">
+prefix rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; 
+prefix qudt:&lt;http://data.nasa.gov/qudt/owl/qudt#&gt; 
+prefix waves:&lt;http://waves-rsp.org/resource#&gt; 
+prefix ssn:&lt;http://purl.oclc.org/NET/ssnx/ssn#&gt; 
+prefix cuahsi:&lt;http://his.cuahsi.org/ontology/cuahsi#&gt; 
+
+construct {
+    ?eventId waves:time ?time .
+    ?eventId a waves:Event .
+    ?eventId waves:observes _:o.
+    _:o waves:relatedSector ?sector .
+    _:o qudt:numericValue ?totalSum . 
+}
+where {
+	select distinct ?sector ((?inputSum - ?outputSum) as ?totalSum) ?time
+    where {
+		select distinct ?sector (sum(?inputValue) as ?inputSum) (sum(?outputValue) as ?outputSum) ?time
+        where {
+			{
+              ?inputSensor  ssn:onPlatform     ?sector ;
+              	ssn:observes?inputFlow .
+              ?inputFlow    cuahsi:relatedTo   ?sector ;
+              	a    cuahsi:inputFlow .
+              ?inputEvent   ssn:isProducedBy   ?inputSensor;
+              	ssn:hasValue?inputObservationValue ;
+              	ssn:startTime      ?time .
+              ?inputObservationValue  qudt:numericValue  ?inputValue .
+          }
+          union {
+            ?outputSensor  ssn:onPlatform  ?sector ;
+            	ssn:observes    ?outputFlow .
+            ?outputFlow    cuahsi:relatedTo    ?sector ;
+            	a    cuahsi:outputFlow .
+            ?outputEvent   ssn:isProducedBy  ?outputSensor ;
+            	ssn:hasValue      ?outputObservationValue ;
+            	ssn:startTime      ?time .
+            ?outputObservationValue   qudt:numericValue   ?outputValue .
+          }
+	}
+	GROUP BY ?sector ?time }
+}
+        </textarea>
+        <small class="text-muted">Waves SPARQL Construct Query</small>
+    </div>
+  </div>
+  <div class="form-group advanced-settings hide">
+    <label class="control-label col-sm-2" for="numTasks">Number Task :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="numTasks" type="number" placeholder="Number Task ..." value="2">
+        <small class="text-muted">Number Task.</small>
+    </div>
+  </div>
+  <div class="form-group advanced-settings hide">
+    <label class="control-label col-sm-2" for="workers">Number Workers :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="workers" type="number" placeholder="Number Workers ..." value="1">
+        <small class="text-muted">Number Workers.</small>
+    </div>
+  </div>
+  <div class="form-group advanced-settings hide">
+    <label class="control-label col-sm-2" for="broadcastThreshold">Broadcast Threshold :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="broadcastThreshold" type="number" placeholder="Broadcast Threshold ..." value="1">
+        <small class="text-muted">Broadcast Threshold.</small>
+    </div>
+  </div>
+  <div class="form-group advanced-settings hide">
+    <label class="control-label col-sm-2" for="concurrentJobs">Concurrent Jobs :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="concurrentJobs" type="number" placeholder="Concurrent Jobs ..." value="1">
+        <small class="text-muted">Concurrent Jobs.</small>
+    </div>
+  </div>
+  <div class="form-group advanced-settings hide">
+    <label class="control-label col-sm-2" for="numberRepartitions">Number Repartitions :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="numberRepartitions" type="number" placeholder="Number Repartitions ..." value="4">
+        <small class="text-muted">Number Repartitions.</small>
+    </div>
+  </div>
+  <div class="form-group advanced-settings hide">
+    <label class="control-label col-sm-2" for="shuffledPartitions">Shuffled Partitions :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="shuffledPartitions" type="number" placeholder="Shuffled Partitions ..." value="8">
+        <small class="text-muted">Shuffled Partitions.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+        <button class="btn btn-default" type="button" name="toggleAdvancedSettings">Hide / Show Advanced Settings</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="AnomalyDetectionSettings" cmpt_id="">
+  <div class="settings-title">
+    Parameters for Anomaly Detection
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <!-- Hidden input -->
+  <input name="label" type="hidden" value="learning"/>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="historisation">Historisation :</label>
+    <div class="col-sm-10">
+      <div class="radio">
+        <label><input type="radio" name="historisation" value="true"/>True. </label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="historisation" value="false" checked/>False.</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="frequency">Frequency :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="frequency" type="text" placeholder="Frequency ..."/>
+        <small class="text-muted">Frequency :</small>
+    </div>
+  </div>
+  <div class="form-group">
+      <label class="control-label col-sm-2" for="clusteringModel">Clustering Model :</label>
+      <div class="col-sm-6">
+          <select class="form-control" id="clusteringModel" name="clusteringModel">
+            <option value="K-Mean">K-Mean</option>
+            <option value="Rock clustering">Rock clustering</option>
+            <option value="Dbscan">Dbscan</option>
+            <option value="optics">optics</option>
+            <option value="agglomerative">agglomerative</option>
+          </select>
+      </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="comsumptionQuery">Comsumption Query :</label>
+    <div class="col-sm-8">
+        <textarea class="form-control" name="comsumptionQuery" rows="8" type="text" placeholder="SPARQL Query">PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		PREFIX qudt:<http://data.nasa.gov/qudt/owl/qudt#>
+		PREFIX waves:<http://waves.org/resource#>
+		PREFIX ssn:<http://purl.oclc.org/NET/ssnx/ssn#>
+		PREFIX cuahsi:<http://his.cuahsi.org/ontology/cuahsi#>
+
+		select ?sector  ?time ?consumption
+		WHERE {
+			?event1 a waves:Event . ?event1 waves:time ?time .
+			?event1 waves:observes  _:o .
+			_:o qudt:numericValue ?consumption.
+			_:o waves:relatedSector ?sector .
+
+			FILTER ((?time < "%date1T23:59:00.000Z"^^xsd:dateTime && ?time > "%date1T00:00:00.000Z"^^xsd:dateTime)
+				|| (?time > "%date2T00:00:00.000Z"^^xsd:dateTime && ?time < "%date2T23:59:00.000Z"^^xsd:dateTime && ?time))
+		} order by ?sector1 ?time
+        </textarea>
+        <small class="text-muted">Comsumption Query</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="similarSectorQuery">Similar Sector Query :</label>
+    <div class="col-sm-8">
+        <textarea class="form-control" name="similarSectorQuery" rows="8" type="text" placeholder="Similar Sector Query">PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		PREFIX qudt:<http://data.nasa.gov/qudt/owl/qudt#>
+		PREFIX waves:<http://waves-rsp.org/resource#>
+		PREFIX ssn:<http://purl.oclc.org/NET/ssnx/ssn#>
+		PREFIX cuahsi:<http://his.cuahsi.org/ontology/cuahsi#>
+
+		select ?sector1  ?sector2
+		WHERE {
+			?sector1 waves:comparableTo ?sector2
+		}
+        </textarea>
+        <small class="text-muted">Similar Sector Query</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="maxClusters">Max Clusters :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="maxClusters" type="number" placeholder="Max Clusters ..."/>
+        <small class="text-muted">Max Clusters :</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="sectorAnomalyThreshold">Sector Anomaly Threshold :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="sectorAnomalyThreshold" type="text" placeholder="Sector Anomaly Threshold ..."/>
+        <small class="text-muted">Sector Anomaly Threshold :</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="clusterAnomalyThreshold">Cluster Anomaly Threshold :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="clusterAnomalyThreshold" type="text" placeholder="Cluster Anomaly Threshold ..."/>
+        <small class="text-muted">Cluster Anomaly Threshold :</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="profilingModel">Profiling Model :</label>
+    <div class="col-sm-10">
+      <div class="radio">
+        <label><input type="radio" name="profilingModel" value="aligned" checked/>Aligned. </label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="profilingModel" value="not_aligned"/>Not aligned.</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="profilingDays">Profiling Days :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="profilingDays" type="text" placeholder="Profiling Days ..."/>
+        <small class="text-muted">Profiling Days :</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="anomalyPeriod">Anomaly Period :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="anomalyPeriod" type="text" placeholder="Anomaly Period ..." value="PT2H"/>
+        <small class="text-muted">Anomaly Period :</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pearsonThreshold">Pearson Threshold :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="pearsonThreshold" type="text" placeholder="Pearson Threshold ..."/>
+        <small class="text-muted">Pearson Threshold :</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="RSSFeedSettings" cmpt_id="">
+  <div class="settings-title">
+    Parameters for RSS Feed
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="feedType">Feed Type :</label>
+    <div class="col-sm-4">
+        <input class="form-control" name="feedType" type="text" placeholder="RSS Feed Type ..." value="newspapers">
+        <small class="text-muted">RSS Feed Url.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="locations">Feed Urls :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="locations" type="text" placeholder="RSS Feed Location ..." value="http://www.leparisien.fr/yvelines-78/rss.xml#xtor=RSS-1481423633">
+    </div>
+    <div class="col-sm-6 col-sm-offset-2" style="margin-top:10px">
+        <input class="form-control" name="locations" type="text" placeholder="RSS Feed Location ..." value="http://www.78actu.fr/feed/?post_type=post">
+    </div>
+    <div class="col-sm-6 col-sm-offset-2" style="margin-top:10px">
+        <input class="form-control" name="locations" type="text" placeholder="RSS Feed Location ..." value="http://www.versailles.fr/?id=41&type=9818">
+    </div>
+    <div class="col-sm-6 col-sm-offset-2" style="margin-top:10px">
+        <input class="form-control" name="locations" type="text" placeholder="RSS Feed Location ..." value="http://www.versailles.fr/?id=42&type=9818">
+    </div>
+    <div class="col-sm-6 col-sm-offset-2" style="margin-top:10px">
+        <input class="form-control" name="locations" type="text" placeholder="RSS Feed Location ..." value="http://www.versailles.fr/index.php?type=152">
+    </div>
+    <div class="col-sm-6 col-sm-offset-2" style="margin-top:10px">
+        <input class="form-control" name="locations" type="text" placeholder="RSS Feed Location ..." value="http://www.sdis78.fr/les-interventions?format=feed&type=rss">
+    </div>
+    <div class="col-sm-6 col-sm-offset-2" style="margin-top:10px">
+        <input class="form-control" name="locations" type="text" placeholder="RSS Feed Location ..." value="http://www.yvelines.gouv.fr/syndication/flux/rss_feed_69">
+    </div>
+    <button type="button" class="btn btn-default add-input">Add More</button>
+    <button type="button" class="btn btn-default remove-input">Remove </button>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="FacebookFeedSettings" cmpt_id="">
+  <div class="settings-title">
+    Parameters for Facebook Feed
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="feedType">Feed Type :</label>
+    <div class="col-sm-4">
+        <input class="form-control" name="feedType" type="text" placeholder="Facebook Feed Type ..." value="posts">
+        <small class="text-muted">Facebook Feed Type.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pages">Facebook Pages :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="pages" type="text" placeholder="Facebook Feed Pages ..." value="MonVersailles">
+    </div>
+    <div class="col-sm-6 col-sm-offset-2" style="margin-top:10px">
+        <input class="form-control" name="pages" type="text" placeholder="Facebook Feed Pages ..." value="Versailles.officiel">
+    </div>
+    <button type="button" class="btn btn-default add-input">Add More</button>
+    <button type="button" class="btn btn-default remove-input">Remove </button>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="TwitterFeedSettings" cmpt_id="">
+  <div class="settings-title">
+    Parameters for Twitter Feed
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="feedType">Feed Type :</label>
+    <div class="col-sm-4">
+        <input class="form-control" name="feedType" type="text" placeholder="Twitter Feed Type ..." value="tweets">
+        <small class="text-muted">Twitter Feed Type.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="hashTags">Twitter Hashtags :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="hashTags" type="text" placeholder="Twitter Hashtags ..." value="#Sdis78">
+    </div>
+    <button type="button" class="btn btn-default add-input">Add More</button>
+    <button type="button" class="btn btn-default remove-input">Remove </button>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal hide" type="OpenDataFeedSettings" cmpt_id="">
+  <div class="settings-title">
+    Parameters for Open Data Feed
+    <div class="pull-right">
+      <button type="button" class="btn btn-sm btn-default" name="detachConns">
+        <span class="glyphicon glyphicon-scissors"></span> Detach Conns.
+      </button>
+      <button type="button" class="btn btn-sm btn-default" name="deleteCmpt">
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="feedType">Feed Type :</label>
+    <div class="col-sm-4">
+        <input class="form-control" name="feedType" type="text" placeholder="Open Data Feed Type ..." value="events">
+        <small class="text-muted">Open Data Feed Type.</small>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="locations">locations :</label>
+    <div class="col-sm-6">
+        <input class="form-control" name="locations" type="text" placeholder="Open Data Url Locations ..." value="https://public.opendatasoft.com/api/records/1.0/search/?dataset=evenements-publics-cibul&rows=1000&sort=-updated_at&facet=updated_at&facet=tags&facet=placename&facet=department&facet=region&facet=city&facet=date_start&facet=date_end&facet=pricing_info">
+    </div>
+    <button type="button" class="btn btn-default add-input">Add More</button>
+    <button type="button" class="btn btn-default remove-input">Remove </button>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2">
+        <button class="btn btn-default" type="button" name="saveCmptSettings">Save Setting</button>
+    </div>
+  </div>
+</form>
+</div>
+</div>
+<!-- End of Component Settings -->
+
+<button type="button" class="btn btn-default" name="prev_tab">Prev. Step</button>
+<button type="button" class="btn btn-default" name="next_tab">Next Step</button>
+</div>
+<!-- End of Panel 2 -->
+
+<!-- Panel 3 for enter monitoring info -->
+<div id="monitoring" class="tab-pane fade">
+<h3>Step 3 : Set Monitoring Parameters </h3>
+<div style="margin:25px 0 25px 0;">
+<form class="form-horizontal" role="form" id="monitoring_form">
+<div class="form-group">        
+  <label class="control-label col-sm-2" for="reporters">Metrics Reporter:</label>
+  <div class="col-sm-10">          
+      <select class="form-control" id="reporter" name="reporters">
+        <option value="Console">Console</option>
+        <option value="influxdb, jvm">Influx DB, JVM</option>
+      </select>
+  </div>
+</div>
+<div class="form-group">
+  <label class="control-label col-sm-2" for="frequency">Reporting Frequency:</label>
+  <div class="col-sm-10">          
+    <input type="text" class="form-control" name="frequency" id="frequency" placeholder="Enter the monitoring report frequency" value="PT15S">
+  </div>
+</div>
+<div class="form-group">        
+  <div class="col-sm-offset-2 col-sm-10">
+    <button type="button" class="btn btn-default" name="prev_tab">Prev. Step</button>
+    <button type="button" class="btn btn-default" id="preview_trig">Preview Configuration</button>
+    <button type="button" class="btn btn-success" id="create">Submit Project</button>
+  </div>
+</div>
+</form>
+</div>
+</div>
+<!-- End of Panel 3 -->
+
+</div>
+<!-- End of Content -->
+</div>
+
+<!-- Choose Clock Settings Modal -->
+<div class="modal fade" id="chooseClockSettingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModal">
+  <div class="modal-dialog modal-lg" role="form">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Clock Settings</h3>
+      </div>
+      <div class="modal-body">
+         <form>
+         <h4 style="margin-bottom: 15px;">Choose clock settings method</h4>
+         <div class="radio">
+             <label><input type="radio" name="clockOption" value="datetime" checked/>Option 1: Specify with start time, end time and duration</label>
+         </div>
+         <div class="radio">
+             <label><input type="radio" name="clockOption" value="accelerator">Option 2: Configure clock settings by accelerator</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success" id="chooseClock">Choose</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal -->
+
+<!-- Clock Date Time Settings Modal -->
+<div class="modal fade" id="clockTimeSettingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModal">
+  <div class="modal-dialog modal-lg" role="form">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Clock Settings</h3>
+      </div>
+      <div class="modal-body">
+         <form id="datetimeSettings">
+         <h4 style="margin-bottom: 15px;">Set clock start, end date and duration.</h4>
+         <div class="form-group">
+             <label class="control-label" for="localTimeZone">Use Local Time Zone</label><br>
+             <label class="radio-inline"><input type="radio" name="localTimeZone" value="True">Yes</label>
+             <label class="radio-inline"><input type="radio" name="localTimeZone" value="False" checked>No</label>
+         </div>
+         <div class="form-group">
+             <label class="control-label" for="startDate">Start Date</label>
+             <input class="form-control" type="text" name="startDate" placeholder="XSD Duration format Start Date" value="{{clock.startDate}}">
+         </div>
+         <div class="form-group">
+             <label class="control-label" for="endDate">End Date</label>
+             <input class="form-control" type="text" name="endDate" placeholder="XSD Duration format End Date" value="{{clock.endDate}}">
+         </div>
+         <div class="form-group">
+             <label class="control-label" for="duration">Duration</label>
+             <input class="form-control" type="text" name="duration" placeholder="XSD Duration format Duration" value="{{clock.duration}}">
+         </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" name="saveClockSettings">Save Settings</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal -->
+
+<!-- Clock Accelerator Settings Modal -->
+<div class="modal fade" id="acceleratorSettingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModal">
+  <div class="modal-dialog modal-lg" role="form">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Clock Settings</h3>
+      </div>
+      <div class="modal-body">
+         <form>
+         <h4 style="margin-bottom: 15px;">Set clock start date and acceleration.</h4>
+         <div class="form-group">
+             <label class="control-label" for="localTimeZone">Use Local Time Zone</label><br>
+             <label class="radio-inline"><input type="radio" name="localTimeZone" value="True">Yes</label>
+             <label class="radio-inline"><input type="radio" name="localTimeZone" value="False" checked>No</label>
+         </div>
+         <div class="form-group">
+             <label class="control-label" for="startDate">Start Date</label>
+             <input class="form-control" type="text" name="startDate" placeholder="XSD Duration format Start Date" value="{{clock.startDate}}">
+         </div>
+         <div class="form-group">
+             <label class="control-label" for="acceleration">Accelerator Factor</label>
+             <input class="form-control" type="text" name="acceleration" placeholder="Acceleration" value="{{ clock.acceleration }}">
+         </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" name="saveClockSettings">Save Settings</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal -->
+
+<!-- Window Span Settings Modal -->
+<div class="modal fade" id="windowSettingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModal">
+  <div class="modal-dialog modal-lg" role="form">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Window Span Settings</h3>
+      </div>
+      <div class="modal-body">
+         <form>
+         <div class="form-group">
+             <label class="control-label" for="windowSpan">Window Span</label>
+             <input class="form-control" type="text" name="windowSpan" placeholder="Window Span in XSD Duration format" value="PT8S">
+         </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" name="saveWindowSpan">Save Settings</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal -->
+
+<!-- Confirm Save Settings Modal -->
+<div class="modal fade" id="confirmSaveSettingsModal" role="dialog">
+<div class="modal-dialog">
+  <!-- Modal content-->
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title">Confirm Dialog</h4>
+    </div>
+    <div class="modal-body">
+      <p>Settings have been saved.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+    </div>
+  </div>
+</div>
+</div>
+<!-- End of Modal -->
+
+<!-- View Trig Modal -->
+<div class="modal fade" id="trigModal" tabindex="-1" role="dialog" aria-labelledby="trigModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">View TriG</h3>
+      </div>
+      <div class="modal-body">
+          <pre id="trig_content"></pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal -->
+
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/static/js/fileinput.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/static/js/bootbox.min.js"></script>
+<script type="text/javascript" src="/static/js/jsplumb.min.js"></script>
+
+<script type="text/javascript" src="/static/js/myscripts/step_control.js"></script>
+<script type="text/javascript" src="/static/js/myscripts/create-or-modify-project.js"></script>
+

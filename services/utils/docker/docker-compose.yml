@@ -1,0 +1,73 @@
+zookeeper:
+  build: ./zookeeper
+  hostname: zookeeper
+  ports:
+    - 2181:2181
+    - 22
+  command: bash -c "kafka/bin/zookeeper-server-start.sh kafka/config/zookeeper.properties  && sleep 5s"
+
+
+kafka:
+  build: ./kafka
+  hostname: kafka
+  ports:
+    - 9092:9092
+  links:
+    - zookeeper
+  environment:
+    KAFKA_BROKER_ID: 0
+    KAFKA_HOST_NAME: 172.17.0.3 
+    KAFKA_ADVERTISED_PORT: 9092
+    KAFKA_ZOOKEEPER_CONNECT: 172.17.0.2:2181
+    
+tomcat:
+  build: ./tomcat
+  hostname: tomcat
+  ports:
+    - 8080:8080
+  expose:
+    - 8080
+  links:
+    - kafka 
+
+nimbus:
+  build: ./storm-nimbus
+  command: /usr/bin/start-supervisor.sh
+  ports:
+    - 49773:3773
+    - 49772:3772
+    - 49627:6627
+    - 22
+  links: 
+    - zookeeper:zk
+    - tomcat
+    - redis:redis
+
+supervisor:
+  build: ./storm-supervisor
+  command: /usr/bin/start-supervisor.sh 
+  ports:
+    - 8000
+    - 22
+  links: 
+    - nimbus:nimbus
+    - zookeeper:zk
+    - redis:redis
+
+ui:
+  build: ./storm-ui
+  command: /usr/bin/start-supervisor.sh
+  ports:
+    - 49080:8080
+    - 22
+  links: 
+    - nimbus:nimbus
+    - zookeeper:zk
+
+redis:
+  build: ./redis
+  command: /usr/local/redis/src/redis-server
+  ports:
+    - 6379:6379
+  links:
+    - tomcat:tomcat

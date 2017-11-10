@@ -1,0 +1,30 @@
+@prefix om-owl:  <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sens-obs:  <http://knoesis.wright.edu/ssw/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix weather:  <http://knoesis.wright.edu/ssw/ont/weather.owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wgs84:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+sens-obs:point_BSDI1
+      a       wgs84:Point ;
+      wgs84:alt "6180"^^xsd:float ;
+      wgs84:lat "44.61"^^xsd:float ;
+      wgs84:long "-116.98"^^xsd:float .
+
+sens-obs:LocatedNearRelBSDI1
+      a       om-owl:LocatedNearRel ;
+      om-owl:distance "1.3495"^^xsd:float ;
+      om-owl:hasLocation <http://sws.geonames.org/5585033/> ;
+      om-owl:uom weather:miles .
+
+sens-obs:System_BSDI1
+      a       om-owl:System ;
+      om-owl:ID "BSDI1" ;
+      om-owl:hasLocatedNearRel
+              sens-obs:LocatedNearRelBSDI1 ;
+      om-owl:hasSourceURI <http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=BSDI1> ;
+      om-owl:parameter weather:_AirTemperature , weather:_PrecipitationAccumulated , weather:_PrecipitationSmoothed ;
+      om-owl:processLocation
+              sens-obs:point_BSDI1 .

@@ -1,0 +1,30 @@
+@prefix om-owl:  <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sens-obs:  <http://knoesis.wright.edu/ssw/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix weather:  <http://knoesis.wright.edu/ssw/ont/weather.owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wgs84:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+sens-obs:point_BRAU1
+      a       wgs84:Point ;
+      wgs84:alt "8536"^^xsd:float ;
+      wgs84:lat "40.8844"^^xsd:float ;
+      wgs84:long "-110.8292"^^xsd:float .
+
+sens-obs:LocatedNearRelBRAU1
+      a       om-owl:LocatedNearRel ;
+      om-owl:distance "0.2509"^^xsd:float ;
+      om-owl:hasLocation <http://sws.geonames.org/5771187/> ;
+      om-owl:uom weather:miles .
+
+sens-obs:System_BRAU1
+      a       om-owl:System ;
+      om-owl:ID "BRAU1" ;
+      om-owl:hasLocatedNearRel
+              sens-obs:LocatedNearRelBRAU1 ;
+      om-owl:hasSourceURI <http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=BRAU1> ;
+      om-owl:parameter weather:_WindDirection , weather:_RelativeHumidity , weather:_DewPoint , weather:_AirTemperature , weather:_PeakWindSpeed , weather:_WindSpeed , weather:_WindGust , weather:_PrecipitationAccumulated , weather:_PeakWindDirection ;
+      om-owl:processLocation
+              sens-obs:point_BRAU1 .

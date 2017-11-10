@@ -1,0 +1,30 @@
+@prefix om-owl:  <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sens-obs:  <http://knoesis.wright.edu/ssw/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix weather:  <http://knoesis.wright.edu/ssw/ont/weather.owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wgs84:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+sens-obs:LocatedNearRelAR639
+      a       om-owl:LocatedNearRel ;
+      om-owl:distance "0.975"^^xsd:float ;
+      om-owl:hasLocation <http://sws.geonames.org/5136976/> ;
+      om-owl:uom weather:miles .
+
+sens-obs:System_AR639
+      a       om-owl:System ;
+      om-owl:ID "AR639" ;
+      om-owl:hasLocatedNearRel
+              sens-obs:LocatedNearRelAR639 ;
+      om-owl:hasSourceURI <http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=AR639> ;
+      om-owl:parameter weather:_WindDirection , weather:_RelativeHumidity , weather:_AirTemperature , weather:_DewPoint , weather:_WindSpeed ;
+      om-owl:processLocation
+              sens-obs:point_AR639 .
+
+sens-obs:point_AR639
+      a       wgs84:Point ;
+      wgs84:alt "1395"^^xsd:float ;
+      wgs84:lat "42.6137"^^xsd:float ;
+      wgs84:long "-75.5595"^^xsd:float .

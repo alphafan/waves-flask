@@ -1,0 +1,30 @@
+@prefix om-owl:  <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sens-obs:  <http://knoesis.wright.edu/ssw/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix weather:  <http://knoesis.wright.edu/ssw/ont/weather.owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wgs84:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+sens-obs:LocatedNearRelBDVA2
+      a       om-owl:LocatedNearRel ;
+      om-owl:distance "0.9991"^^xsd:float ;
+      om-owl:hasLocation <http://sws.geonames.org/5873782/> ;
+      om-owl:uom weather:miles .
+
+sens-obs:point_BDVA2
+      a       wgs84:Point ;
+      wgs84:alt "625"^^xsd:float ;
+      wgs84:lat "60.4833"^^xsd:float ;
+      wgs84:long "-149.7667"^^xsd:float .
+
+sens-obs:System_BDVA2
+      a       om-owl:System ;
+      om-owl:ID "BDVA2" ;
+      om-owl:hasLocatedNearRel
+              sens-obs:LocatedNearRelBDVA2 ;
+      om-owl:hasSourceURI <http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=BDVA2> ;
+      om-owl:parameter weather:_WindDirection , weather:_RelativeHumidity , weather:_DewPoint , weather:_AirTemperature , weather:_PeakWindSpeed , weather:_WindSpeed , weather:_WindGust , weather:_PrecipitationAccumulated , weather:_PeakWindDirection ;
+      om-owl:processLocation
+              sens-obs:point_BDVA2 .

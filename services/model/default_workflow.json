@@ -1,0 +1,79 @@
+[
+    {
+        "top" : "34px",
+        "left" : "19px",
+        "type" : "RawSource",
+        "id" : "1",
+        "img_src" : "/static/img/workflow/raw_source.png",
+        "p_text" : "Raw Source",
+        "linksTo" : [
+            "2"
+        ]
+    },
+ 	{
+        "top" : "151px",
+        "left" : "19px",
+        "type" : "RawStream",
+        "id" : "2",
+        "img_src" : "/static/img/workflow/raw_stream.png",
+        "p_text" : "Raw Stream",
+        "linksTo" : [
+            "3"
+        ]
+    },
+    {
+        "top" : "273px",
+        "left" : "22px",
+        "type" : "Cleaner",
+        "id" : "3",
+        "img_src" : "/static/img/workflow/cleaner.png",
+        "p_text" : "Cleaner",
+        "linksTo" : [
+			"4"
+        ]
+    },
+    {
+        "top" : "409px",
+        "left" : "19px",
+        "type" : "RawStream",
+        "id" : "4",
+        "img_src" : "/static/img/workflow/raw_stream.png",
+        "p_text" : "Raw Stream",
+        "linksTo" : [
+			"5"
+        ]
+    },
+    {
+        "top" : "479px",
+        "left" : "137px",
+        "type" : "Sampler",
+        "id" : "5",
+        "img_src" : "/static/img/workflow/sampler.png",
+        "p_text" : "Sampler",
+        "linksTo" : [
+			"6"
+        ]
+    },
+    {
+        "top" : "401px",
+        "left" : "201px",
+        "type" : "RawStream",
+        "id" : "6",
+        "img_src" : "/static/img/workflow/raw_stream.png",
+        "p_text" : "RawStream",
+        "linksTo" : [
+			"7"
+        ]
+    },
+    {
+        "top" : "268px",
+        "left" : "202px",
+        "type" : "Converter",
+        "id" : "7",
+        "img_src" : "/static/img/workflow/rdf_converter.png",
+        "p_text" : "Converter",
+        "linksTo" : [
+
+        ]
+    }
+]

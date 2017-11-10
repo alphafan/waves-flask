@@ -1,0 +1,307 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix waves:  <http://www.waves-rsp.org/configuration#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://localhost:9091/waves/versailles/> .
+
+<http://localhost:9091/waves/first-tests> {
+
+  # Installation Global Settings
+
+  <installation>
+    rdf:type                waves:Installation ;
+    waves:name              "first-tests" ;
+    waves:zookeeperHosts    "localhost:2181" ;
+    waves:redisHost         "localhost:6379" ;
+    waves:mongoHost         "localhost:27017" ;
+    waves:influxHost        "localhost:8086" ;
+    rdfs:label              "installation" ;
+
+	# Waves shifted and accelerated system clock configuration.
+	waves:clock	[
+		# For shifted clock, a start date is mandated.
+		waves:startDate	"2013-12-31T23:30:00Z"^^xsd:dateTime ;
+		waves:localTimeZone "false";
+		# Acceleration factor can be defined as an interval,
+		# with a start date (see above), an end date:
+		# waves:endDate		"2015-10-11T09:38:00Z"^^xsd:dateTime ;
+		# and an actual (real time) duration for the interval:
+		# waves:duration		"PT15M"^^xsd:duration ;
+		# Or directly as a double value:
+		waves:acceleration	"80"^^xsd:double
+		#70
+	] ;
+	
+		# Waves metrics collection.
+	waves:metrics	[
+		# Report metrics every 15 seconds.
+		waves:frequency		"PT15S"^^xsd:duration ;
+		# Report metrics to local console only.
+		waves:reporters		"console"
+		# waves:reporters	"influxdb, jvm"
+	] .
+	
+  # Data Sources & (Raw) Stream Settings
+
+  <rawSource/1>
+    rdf:type                waves:RawSource ;
+    waves:id                "1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:inputType         "Folder" ;
+    waves:location         "/opt/data/csv" ;  
+    waves:producesStream    <rawStream/3> ;
+    # waves:readStep      	"PT15M"^^xsd:duration ;  
+	waves:fetchFrequency    "PT5S"^^xsd:duration ;  
+    # To delete if the input type is kafka or web service
+    waves:inputPattern      ".csv$" .	
+    
+  <rawStream/1>
+    rdf:type                waves:RawStream ;
+    waves:installation      <installation> ;
+    waves:id                "1"^^xsd:integer .
+
+  # Data Processing Parameters (Native Filter, Converter, Strider)
+
+  <cleaner/1>
+    rdf:type                waves:Cleaner ;
+    waves:id  			  	"1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:consumesStream   	<rawStream/1> ;
+    waves:producesStream    <rawStream/2> ;
+    # Cleaner Parameters
+    waves:timeIntervalTrainingLength    "10"^^xsd:interger ; 
+    waves:allowedDuration   "02:00:00"^^xsd:time ;
+    waves:initTime          "23:00:00"^^xsd:time .
+
+  <rawStream/2>
+    rdf:type                waves:RawStream ;
+    waves:installation      <installation> ;
+    waves:id                "2"^^xsd:integer .
+
+  <sampler/1>
+    rdf:type                waves:Sampler ;
+    waves:id                "1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:consumesStream   <rawStream/2> ;
+    waves:producesStream    <rawStream/3> ;
+    waves:samplingMethod     "randomSampling" ;
+    waves:samplingParameter "98"^^xsd:integer.
+    
+  <rawStream/3>
+    rdf:type                waves:RawStream ;
+    waves:installation      <installation> ;
+    waves:id                "3"^^xsd:integer .
+   	
+  <converter/1>
+    rdf:type                waves:Converter ;
+    waves:installation      <installation> ;
+    waves:id             	"1"^^xsd:integer ;
+    waves:consumesStream    <rawStream/3> ;
+    waves:producesStream    <stream/54> ;
+    waves:model             """
+        @prefix ssn:<http://purl.oclc.org/NET/ssnx/ssn#> . 
+        @prefix qudt:<http://data.nasa.gov/qudt/owl/qudt#> . 
+        @prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+        $eventId 
+            a ssn:SensorOutput;
+            ssn:isProducedBy $uri(?id);
+            ssn:hasValue $bnode(?obsId);
+            ssn:startTime $timestamp .
+        $bnode(?obsId)
+            a ssn:ObservationValue ;
+            qudt:numericValue $double(?value, ?unit, ?scale) .
+    """ ;
+    # If unit is needed, later we will add it
+    # waves:unit			<unit/1i> ;
+    waves:query             """
+        prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+        prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> 
+        prefix ssn:<http://purl.oclc.org/NET/ssnx/ssn#> 
+        prefix qudt:<http://data.nasa.gov/qudt/owl/qudt#> 
+        select * 
+        where { 
+            ?sensorUri rdf:type ssn:Sensor ; 
+                qudt:unit ?unit ; 
+                rdfs:label ?sensorName . 
+        }
+    """ .
+       
+   <stream/54>
+    rdf:type                waves:Stream ;
+    waves:installation      <installation> ;
+    waves:id                "54"^^xsd:integer .    
+    
+  <filter/123>
+    rdf:type                waves:Filter ;
+    waves:id 				"1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:consumesStreams   _:F1_S54 ;
+    waves:producesStream    <stream/123> ;
+    waves:staticFeed        _:b31 ;
+    waves:stepRate		    "PT900S"^^xsd:duration ;  
+    waves:numTasks          "2"^^xsd:integer ;
+	waves:workers		    "1"^^xsd:int ;
+    waves:broadcastThreshold    "1"^^xsd:integer ;
+    waves:concurrentJobs        "1"^^xsd:integer ;
+    waves:numberRepartitions    "4"^^xsd:integer ;
+    waves:shuffledPartitons     "8"^^xsd:integer ;
+ 	waves:query		"""
+	PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+	PREFIX qudt:<http://data.nasa.gov/qudt/owl/qudt#> 
+	PREFIX waves:<http://waves.org/resource#> 
+	PREFIX ssn:<http://purl.oclc.org/NET/ssnx/ssn#> 
+	PREFIX cuahsi:<http://his.cuahsi.org/ontology/cuahsi#>  
+	CONSTRUCT { 
+      		   ?eventId waves:time ?time .   
+       		   ?eventId a waves:Event .  
+               ?eventId waves:observes  _:o . 
+               _:o waves:relatedSector ?sector .  
+                _:o qudt:inputSum ?inputSum .
+            } 
+	WHERE {  
+        SELECT DISTINCT ?sector ?inputSum ?time  
+        WHERE {  
+                {  
+                 SELECT DISTINCT ?sector (SUM(?inputValue) AS ?inputSum) ?time  
+                WHERE {      
+                        ?inputSensor ssn:onPlatform ?sector . 
+                 	    ?inputSensor ssn:observes ?inputFlow . 
+                        ?inputFlow cuahsi:relatedTo ?sector .               
+                        ?inputFlow a cuahsi:inputFlow . 
+                        ?inputEvent ssn:isProducedBy ?inputSensor . 
+                        ?inputEvent ssn:hasValue ?inputObservationValue . 
+                        ?inputEvent ssn:startTime ?time . 
+                        ?inputObservationValue qudt:numericValue ?inputValue .
+                                        
+                   } GROUP BY ?sector ?time order by ?sector
+                 } 
+             } 
+        }
+	""" .
+  
+   	_:F1_S54 
+	rdfs:label		"F1_S54" ;
+	waves:stream		<stream/54> ;
+	waves:windowSpan	"PT900S"^^xsd:duration .
+			     
+  <stream/123>
+    rdf:type                waves:Stream ;
+    waves:installation      <installation> ;
+    waves:id                "123"^^xsd:integer .
+     
+
+  # Static data RDF document feed
+  _:b31	
+    rdf:type                waves:RdfFeed ;
+    rdfs:label              "doc1Feed" ;
+    waves:feedType          "RdfDocument" ;
+    waves:refreshInterval	"PT2M"^^xsd:duration ;
+    waves:location          "/opt/data/rdf/static_data_versailles.n3" .
+    
+    # Static data SPARQL feed
+  _:b32	rdf:type		waves:SparqlFeed ;
+	rdfs:label 		"sparql1Feed" ;
+	waves:feedType 		"SPARQL" ;
+	waves:location		"http://localhost:8890/sparql" ;
+	waves:refreshInterval	"PT2H"^^xsd:duration ;
+	waves:query		"""	
+	PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+	PREFIX ssn:<http://purl.oclc.org/NET/ssnx/ssn#> 
+	PREFIX cuahsi:<http://his.cuahsi.org/ontology/cuahsi#> 
+	CONSTRUCT {  
+	    ?sector rdf:type ssn:Platform . 
+        ?inputFlowSensor ssn:onPlatform ?sector . 
+		?inputFlowSensor ssn:observes ?inputFlow . 
+		?inputFlow cuahsi:relatedTo ?sector . 
+    	?inputFlow a cuahsi:inputFlow . 
+    	?outputFlowSensor ssn:onPlatform ?sector . 
+        ?outputFlowSensor ssn:observes ?outputFlow . 
+        ?outputFlow a cuahsi:outputFlow . 
+        ?outputFlow cuahsi:relatedTo ?sector . } 
+	WHERE { 
+        ?sector rdf:type ssn:Platform . 
+        ?inputFlowSensor ssn:onPlatform ?sector . 
+		?inputFlowSensor ssn:observes ?inputFlow . 
+		?inputFlow cuahsi:relatedTo ?sector . 
+    	?inputFlow a cuahsi:inputFlow . 
+  		OPTIONAL { 
+          ?outputFlowSensor ssn:onPlatform ?sector . 
+          ?outputFlowSensor ssn:observes ?outputFlow . 
+          ?outputFlow a cuahsi:outputFlow . 
+          ?outputFlow cuahsi:relatedTo ?sector . 
+ 		} 
+	}""" .
+  
+       
+    <sink/3f>
+    rdf:type                waves:Sink ;
+    waves:id                "1"^^xsd:integer ;
+    waves:consumesStream   <stream/123> ;
+    waves:sinkGate          "kafka" ;
+    waves:installation	<installation> ;   
+    waves:numTasks		"2"^^xsd:int ; 
+	# RDF Outputter bolt: Use the following label to use file-based RDF
+	# outputter in test topology.
+	# rdfs:label 		"QOut-1" ;
+	# Kafka RDF consumer: Use the following label to use file-based RDF
+	# Kafka consumer to consume the Kafka messages output by the test
+	# topology and dump them as RDF text.
+	# Use the following 2 properties to output to file or stream.
+	waves:outputFile	"out.txt" ;
+	waves:outputFormat	"Turtle" .
+	# Use the following property to output to an RDF store.
+	#  waves:rdfStore	_:b1 .
+	
+  
+     # Datalift-based RDF back-end store
+   	_:b1	  rdf:type		waves:RdfStore ;
+  	 waves:id                "1"^^xsd:integer ;
+	 waves:location		"jdbc:virtuoso://localhost:1111" ;
+	 waves:login		"dba" ;
+	 waves:password		"dba" ;
+	 waves:storeType		"virtuoso" .
+	 
+	
+	# SCOUTER 
+	<scouter/5h>
+    rdf:type                waves:Scouter ;
+   # waves:id                "1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:consumesStreams   <stream/xx_anomaly_detection> ;
+    waves:producesStream    <stream/6g> ;
+    waves:staticFeed        _:b4 .
+    
+   _:b4	
+    rdf:type                waves:RSSFeed ;
+    rdfs:label              "RSSSource" ;
+    waves:feedType          "newspapers" ;
+    waves:url1              "http://www.leparisien.fr/yvelines-78/rss.xml#xtor=RSS-1481423633";
+    waves:url2              "http://www.78actu.fr/feed/?post_type=post";
+    waves:url3              "http://www.versailles.fr/?id=41&type=9818";
+    waves:url4              "http://www.versailles.fr/?id=42&type=9818";
+    waves:url4              "http://www.versailles.fr/index.php?type=152";
+   	waves:url5              "http://www.sdis78.fr/les-interventions?format=feed&type=rss";
+   	waves:url1              "http://www.yvelines.gouv.fr/syndication/flux/rss_feed_69" .
+  
+   _:b5	
+    rdf:type                waves:FacebookFeed ;
+    rdfs:label              "FBSource" ;
+    waves:feedType          "posts" ;
+    waves:page1              "MonVersailles";
+    waves:page2              "Versailles.officiel" .
+  
+  _:b6	
+    rdf:type                waves:TwitterFeed ;
+    rdfs:label              "TwitterSource" ;
+    waves:feedType          "tweets" ;
+    waves:hashTag1          "#Sdis78" .
+
+  _:b7	
+    rdf:type                waves:OpenDataFeed ;
+    rdfs:label              "OpenDataSource" ;
+    waves:feedType          "events" ;
+    waves:url1              "https://public.opendatasoft.com/api/records/1.0/search/?dataset=evenements-publics-cibul&rows=1000&sort=-updated_at&facet=updated_at&facet=tags&facet=placename&facet=department&facet=region&facet=city&facet=date_start&facet=date_end&facet=pricing_info" .
+	 
+}

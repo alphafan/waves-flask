@@ -1,0 +1,1091 @@
+<http://waves.org/resource#Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Brezin> <http://www.w3.org/2000/01/rdf-schema#label> "Brezin" .
+<http://waves.org/resource#Chlore_DT09> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Chlore_DT09> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Chlore_DT09> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineChlore_DT09> .
+<http://waves.org/resource#Chlore_DT09> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Guyancourt_Detendu> .
+<http://waves.org/resource#Chlore_DT09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Chlore_DT09> <http://www.w3.org/2000/01/rdf-schema#label> "Chlore DT09" .
+<http://waves.org/resource#Chlore_DT09> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8777015E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Chlore_DT09> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.065453E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Cl_PM1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineCl_PM1> .
+<http://waves.org/resource#Cl_PM1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Pierrier_Laval> .
+<http://waves.org/resource#Cl_PM1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Cl_PM1> <http://www.w3.org/2000/01/rdf-schema#label> "Cl PM1" .
+<http://waves.org/resource#Cl_PM1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8841E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.219E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM6> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM6> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Cl_PM6> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineCl_PM6> .
+<http://waves.org/resource#Cl_PM6> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Cl_PM6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Cl_PM6> <http://www.w3.org/2000/01/rdf-schema#label> "Cl PM6" .
+<http://waves.org/resource#Cl_PM6> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM6> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.129E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM7> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM7> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Cl_PM7> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineCl_PM7> .
+<http://waves.org/resource#Cl_PM7> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Detendu> .
+<http://waves.org/resource#Cl_PM7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Cl_PM7> <http://www.w3.org/2000/01/rdf-schema#label> "Cl PM7" .
+<http://waves.org/resource#Cl_PM7> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8843E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM7> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.066E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM8> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM8> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Cl_PM8> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineCl_PM8> .
+<http://waves.org/resource#Cl_PM8> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Cl_PM8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Cl_PM8> <http://www.w3.org/2000/01/rdf-schema#label> "Cl PM8" .
+<http://waves.org/resource#Cl_PM8> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8816E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Cl_PM8> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.08E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Garches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Garches> <http://www.w3.org/2000/01/rdf-schema#label> "Garches" .
+<http://waves.org/resource#Gobert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Gobert> <http://www.w3.org/2000/01/rdf-schema#label> "Gobert" .
+<http://waves.org/resource#Guyancourt_Detendu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Guyancourt_Detendu> <http://www.w3.org/2000/01/rdf-schema#label> "Guyancourt D\u00E9tendu" .
+<http://waves.org/resource#Haut-Clagny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Haut-Clagny> <http://www.w3.org/2000/01/rdf-schema#label> "Haut-Clagny" .
+<http://waves.org/resource#Hubies_Detendu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Hubies_Detendu> <http://www.w3.org/2000/01/rdf-schema#label> "Hubies D\u00E9tendu" .
+<http://waves.org/resource#Hubies_Haut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Hubies_Haut> <http://www.w3.org/2000/01/rdf-schema#label> "Hubies Haut" .
+<http://waves.org/resource#Louveciennes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Louveciennes> <http://www.w3.org/2000/01/rdf-schema#label> "Louveciennes" .
+<http://waves.org/resource#PE_Garches> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Garches> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PE_Garches> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePE_Garches> .
+<http://waves.org/resource#PE_Garches> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#PE_Garches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PE_Garches> <http://www.w3.org/2000/01/rdf-schema#label> "PE Garches" .
+<http://waves.org/resource#PE_Garches> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8849E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Garches> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.199E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_H-Brezin> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_H-Brezin> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PE_H-Brezin> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePE_H-Brezin> .
+<http://waves.org/resource#PE_H-Brezin> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#PE_H-Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PE_H-Brezin> <http://www.w3.org/2000/01/rdf-schema#label> "PE H-Brezin" .
+<http://waves.org/resource#PE_H-Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8842E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_H-Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.167E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Hubies_Bas> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Hubies_Bas> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PE_Hubies_Bas> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePE_Hubies_Bas> .
+<http://waves.org/resource#PE_Hubies_Bas> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#PE_Hubies_Bas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PE_Hubies_Bas> <http://www.w3.org/2000/01/rdf-schema#label> "PE Hubies Bas" .
+<http://waves.org/resource#PE_Hubies_Bas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8836E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Hubies_Bas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.142E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_IV_Paves_800> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_IV_Paves_800> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PE_IV_Paves_800> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePE_IV_Pav\u00E9s_800> .
+<http://waves.org/resource#PE_IV_Paves_800> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#PE_IV_Paves_800> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#PE_IV_Paves_800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PE_IV_Paves_800> <http://www.w3.org/2000/01/rdf-schema#label> "PE IV Pav\u00E9s 800" .
+<http://waves.org/resource#PE_IV_Paves_800> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8782E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_IV_Paves_800> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.029E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_L-Brezin> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_L-Brezin> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PE_L-Brezin> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePE_L-Brezin> .
+<http://waves.org/resource#PE_L-Brezin> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#PE_L-Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PE_L-Brezin> <http://www.w3.org/2000/01/rdf-schema#label> "PE L-Brezin" .
+<http://waves.org/resource#PE_L-Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8842E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_L-Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.167E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Laval> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Laval> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PE_Laval> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePE_Laval> .
+<http://waves.org/resource#PE_Laval> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#PE_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PE_Laval> <http://www.w3.org/2000/01/rdf-schema#label> "PE Laval" .
+<http://waves.org/resource#PE_Laval> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8841E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Laval> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.202E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Montbauron> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Montbauron> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PE_Montbauron> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePE_Montbauron> .
+<http://waves.org/resource#PE_Montbauron> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#PE_Montbauron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PE_Montbauron> <http://www.w3.org/2000/01/rdf-schema#label> "PE Montbauron" .
+<http://waves.org/resource#PE_Montbauron> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8803E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Montbauron> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.139E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Usine_Gobert> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Usine_Gobert> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PE_Usine_Gobert> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePE_Usine_Gobert> .
+<http://waves.org/resource#PE_Usine_Gobert> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#PE_Usine_Gobert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PE_Usine_Gobert> <http://www.w3.org/2000/01/rdf-schema#label> "PE Usine Gobert" .
+<http://waves.org/resource#PE_Usine_Gobert> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8795E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PE_Usine_Gobert> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.131E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PRef_Hubies_Hauts> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PRef_Hubies_Hauts> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PRef_Hubies_Hauts> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePRef_Hubies_Hauts> .
+<http://waves.org/resource#PRef_Hubies_Hauts> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#PRef_Hubies_Hauts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PRef_Hubies_Hauts> <http://www.w3.org/2000/01/rdf-schema#label> "PRef Hubies Hauts" .
+<http://waves.org/resource#PRef_Hubies_Hauts> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8835E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PRef_Hubies_Hauts> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.143E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PS_Haut_Clagny> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PS_Haut_Clagny> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PS_Haut_Clagny> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePS_Haut_Clagny> .
+<http://waves.org/resource#PS_Haut_Clagny> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#PS_Haut_Clagny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PS_Haut_Clagny> <http://www.w3.org/2000/01/rdf-schema#label> "PS Haut Clagny" .
+<http://waves.org/resource#PS_Haut_Clagny> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8802746E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PS_Haut_Clagny> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.139458E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PS_Hubies_Hauts_vers_Louv> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PS_Hubies_Hauts_vers_Louv> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#PS_Hubies_Hauts_vers_Louv> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressurePS_Hubies_Hauts_vers_Louv> .
+<http://waves.org/resource#PS_Hubies_Hauts_vers_Louv> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#PS_Hubies_Hauts_vers_Louv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#PS_Hubies_Hauts_vers_Louv> <http://www.w3.org/2000/01/rdf-schema#label> "PS Hubies Hauts vers Louv" .
+<http://waves.org/resource#PS_Hubies_Hauts_vers_Louv> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8835E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#PS_Hubies_Hauts_vers_Louv> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.143E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_BE01_SEVESC> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_BE01_SEVESC> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_BE01_SEVESC> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_BE01_SEVESC> .
+<http://waves.org/resource#P_BE01_SEVESC> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#P_BE01_SEVESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_BE01_SEVESC> <http://www.w3.org/2000/01/rdf-schema#label> "P BE01 SEVESC" .
+<http://waves.org/resource#P_BE01_SEVESC> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8832E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_BE01_SEVESC> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.219E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_BE01_VE> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_BE01_VE> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_BE01_VE> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_BE01_VE> .
+<http://waves.org/resource#P_BE01_VE> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#P_BE01_VE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_BE01_VE> <http://www.w3.org/2000/01/rdf-schema#label> "P BE01 VE" .
+<http://waves.org/resource#P_BE01_VE> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8832E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_BE01_VE> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.219E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_DT01> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_DT01> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_DT01> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_DT01> .
+<http://waves.org/resource#P_DT01> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Garches> .
+<http://waves.org/resource#P_DT01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_DT01> <http://www.w3.org/2000/01/rdf-schema#label> "P DT01" .
+<http://waves.org/resource#P_DT01> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8857E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_DT01> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.21E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_DT09> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_DT09> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_DT09> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_DT09> .
+<http://waves.org/resource#P_DT09> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Guyancourt_Detendu> .
+<http://waves.org/resource#P_DT09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_DT09> <http://www.w3.org/2000/01/rdf-schema#label> "P DT09" .
+<http://waves.org/resource#P_DT09> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8772E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_DT09> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.06E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Louveciennes_Bailly> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Louveciennes_Bailly> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_Louveciennes_Bailly> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_Louveciennes_Bailly> .
+<http://waves.org/resource#P_Louveciennes_Bailly> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#P_Louveciennes_Bailly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_Louveciennes_Bailly> <http://www.w3.org/2000/01/rdf-schema#label> "P Louveciennes (Bailly)" .
+<http://waves.org/resource#P_Louveciennes_Bailly> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8853E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Louveciennes_Bailly> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.109E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Louveciennes_Deux_Portes> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Louveciennes_Deux_Portes> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_Louveciennes_Deux_Portes> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_Louveciennes_Deux_Portes> .
+<http://waves.org/resource#P_Louveciennes_Deux_Portes> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#P_Louveciennes_Deux_Portes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_Louveciennes_Deux_Portes> <http://www.w3.org/2000/01/rdf-schema#label> "P Louveciennes (Deux Portes)" .
+<http://waves.org/resource#P_Louveciennes_Deux_Portes> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8852E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Louveciennes_Deux_Portes> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.11E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_PM1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_PM1> .
+<http://waves.org/resource#P_PM1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Pierrier_Laval> .
+<http://waves.org/resource#P_PM1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_PM1> <http://www.w3.org/2000/01/rdf-schema#label> "P PM1" .
+<http://waves.org/resource#P_PM1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8841E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.219E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM3> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM3> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_PM3> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_PM3> .
+<http://waves.org/resource#P_PM3> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#P_PM3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_PM3> <http://www.w3.org/2000/01/rdf-schema#label> "P PM3" .
+<http://waves.org/resource#P_PM3> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8831E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM3> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.178E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM4> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM4> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_PM4> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_PM4> .
+<http://waves.org/resource#P_PM4> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#P_PM4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_PM4> <http://www.w3.org/2000/01/rdf-schema#label> "P PM4" .
+<http://waves.org/resource#P_PM4> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8775E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM4> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.133E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM5> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM5> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_PM5> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_PM5> .
+<http://waves.org/resource#P_PM5> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Guyancourt_Detendu> .
+<http://waves.org/resource#P_PM5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_PM5> <http://www.w3.org/2000/01/rdf-schema#label> "P PM5" .
+<http://waves.org/resource#P_PM5> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8786E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM5> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.058E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM6> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM6> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_PM6> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_PM6> .
+<http://waves.org/resource#P_PM6> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#P_PM6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_PM6> <http://www.w3.org/2000/01/rdf-schema#label> "P PM6" .
+<http://waves.org/resource#P_PM6> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM6> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.129E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM7> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM7> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_PM7> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_PM7> .
+<http://waves.org/resource#P_PM7> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Detendu> .
+<http://waves.org/resource#P_PM7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_PM7> <http://www.w3.org/2000/01/rdf-schema#label> "P PM7" .
+<http://waves.org/resource#P_PM7> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8843E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM7> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.066E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM8> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM8> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_PM8> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_PM8> .
+<http://waves.org/resource#P_PM8> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#P_PM8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_PM8> <http://www.w3.org/2000/01/rdf-schema#label> "P PM8" .
+<http://waves.org/resource#P_PM8> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8816E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_PM8> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.08E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Point_Triple> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Point_Triple> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_Point_Triple> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_Point_Triple> .
+<http://waves.org/resource#P_Point_Triple> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#P_Point_Triple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_Point_Triple> <http://www.w3.org/2000/01/rdf-schema#label> "P Point Triple" .
+<http://waves.org/resource#P_Point_Triple> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8768E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Point_Triple> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.053E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Porte_St_Antoine> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Porte_St_Antoine> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_Porte_St_Antoine> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_Porte_St_Antoine> .
+<http://waves.org/resource#P_Porte_St_Antoine> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#P_Porte_St_Antoine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_Porte_St_Antoine> <http://www.w3.org/2000/01/rdf-schema#label> "P Porte St Antoine" .
+<http://waves.org/resource#P_Porte_St_Antoine> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.882E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Porte_St_Antoine> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.115E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Ville_dAvray> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Ville_dAvray> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#Bar> .
+<http://waves.org/resource#P_Ville_dAvray> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#pressureP_Ville_d'Avray> .
+<http://waves.org/resource#P_Ville_dAvray> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#P_Ville_dAvray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#P_Ville_dAvray> <http://www.w3.org/2000/01/rdf-schema#label> "P Ville d'Avray" .
+<http://waves.org/resource#P_Ville_dAvray> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8826E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#P_Ville_dAvray> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.189E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Pierrier_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Pierrier_Laval> <http://www.w3.org/2000/01/rdf-schema#label> "Pierrier Laval" .
+<http://waves.org/resource#QE_Bache_Brezin> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Bache_Brezin> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_Bache_Brezin> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_Bache_Br\u00E9zin> .
+<http://waves.org/resource#QE_Bache_Brezin> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#QE_Bache_Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_Bache_Brezin> <http://www.w3.org/2000/01/rdf-schema#label> "QE Bache Br\u00E9zin" .
+<http://waves.org/resource#QE_Bache_Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8842258E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Bache_Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.16679E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Bache_IV_Paves> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Bache_IV_Paves> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_Bache_IV_Paves> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_Bache_IV_Pav\u00E9s> .
+<http://waves.org/resource#QE_Bache_IV_Paves> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#QE_Bache_IV_Paves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_Bache_IV_Paves> <http://www.w3.org/2000/01/rdf-schema#label> "QE Bache IV Pav\u00E9s" .
+<http://waves.org/resource#QE_Bache_IV_Paves> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8781644E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Bache_IV_Paves> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.029267E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Garches> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Garches> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_Garches> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_Garches> .
+<http://waves.org/resource#QE_Garches> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#QE_Garches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_Garches> <http://www.w3.org/2000/01/rdf-schema#label> "QE Garches" .
+<http://waves.org/resource#QE_Garches> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.884902E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Garches> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.198637E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_H-Brezin> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_H-Brezin> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_H-Brezin> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_H-Br\u00E9zin> .
+<http://waves.org/resource#QE_H-Brezin> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#QE_H-Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_H-Brezin> <http://www.w3.org/2000/01/rdf-schema#label> "QE H-Br\u00E9zin" .
+<http://waves.org/resource#QE_H-Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8842392E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_H-Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.16694E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_HC1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_HC1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_HC1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_HC1> .
+<http://waves.org/resource#QE_HC1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#QE_HC1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_HC1> <http://www.w3.org/2000/01/rdf-schema#label> "QE HC1" .
+<http://waves.org/resource#QE_HC1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8816025E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_HC1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.150636E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_HC2> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_HC2> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_HC2> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_HC2> .
+<http://waves.org/resource#QE_HC2> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#QE_HC2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_HC2> <http://www.w3.org/2000/01/rdf-schema#label> "QE HC2" .
+<http://waves.org/resource#QE_HC2> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8815743E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_HC2> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.150626E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Hubies_Bas> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Hubies_Bas> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_Hubies_Bas> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_Hubies_Bas> .
+<http://waves.org/resource#QE_Hubies_Bas> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#QE_Hubies_Bas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_Hubies_Bas> <http://www.w3.org/2000/01/rdf-schema#label> "QE Hubies Bas" .
+<http://waves.org/resource#QE_Hubies_Bas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8836242E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Hubies_Bas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.142466E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Laval> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Laval> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_Laval> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_Laval> .
+<http://waves.org/resource#QE_Laval> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#QE_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_Laval> <http://www.w3.org/2000/01/rdf-schema#label> "QE Laval" .
+<http://waves.org/resource#QE_Laval> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8840602E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Laval> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.202E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Montbauron_reservoir_1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Montbauron_reservoir_1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_Montbauron_reservoir_1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_Montbauron_r\u00E9servoir_1> .
+<http://waves.org/resource#QE_Montbauron_reservoir_1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#QE_Montbauron_reservoir_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_Montbauron_reservoir_1> <http://www.w3.org/2000/01/rdf-schema#label> "QE Montbauron r\u00E9servoir 1" .
+<http://waves.org/resource#QE_Montbauron_reservoir_1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8802759E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Montbauron_reservoir_1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.138451E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Montbauron_reservoir_2> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Montbauron_reservoir_2> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QE_Montbauron_reservoir_2> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQE_Montbauron_r\u00E9servoir_2> .
+<http://waves.org/resource#QE_Montbauron_reservoir_2> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#QE_Montbauron_reservoir_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QE_Montbauron_reservoir_2> <http://www.w3.org/2000/01/rdf-schema#label> "QE Montbauron r\u00E9servoir 2" .
+<http://waves.org/resource#QE_Montbauron_reservoir_2> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8802759E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QE_Montbauron_reservoir_2> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.138451E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Brezin> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Brezin> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Brezin> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Brezin> .
+<http://waves.org/resource#QS_Brezin> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Brezin> .
+<http://waves.org/resource#QS_Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Brezin> <http://www.w3.org/2000/01/rdf-schema#label> "QS Brezin" .
+<http://waves.org/resource#QS_Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8842392E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.16694E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Garches_Bd_Pasteur> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Garches_Bd_Pasteur> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Garches_Bd_Pasteur> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Garches_Bd_Pasteur> .
+<http://waves.org/resource#QS_Garches_Bd_Pasteur> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Garches> .
+<http://waves.org/resource#QS_Garches_Bd_Pasteur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Garches_Bd_Pasteur> <http://www.w3.org/2000/01/rdf-schema#label> "QS Garches Bd Pasteur" .
+<http://waves.org/resource#QS_Garches_Bd_Pasteur> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.884902E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Garches_Bd_Pasteur> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.198637E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Garches_Le_Pierrier> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Garches_Le_Pierrier> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Garches_Le_Pierrier> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Garches_Le_Pierrier> .
+<http://waves.org/resource#QS_Garches_Le_Pierrier> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Garches> .
+<http://waves.org/resource#QS_Garches_Le_Pierrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Garches_Le_Pierrier> <http://www.w3.org/2000/01/rdf-schema#label> "QS Garches Le Pierrier" .
+<http://waves.org/resource#QS_Garches_Le_Pierrier> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.884902E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Garches_Le_Pierrier> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.198637E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_BucLesLoges> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_BucLesLoges> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Gobert_vers_BucLesLoges> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Gobert_vers_BucLesLoges> .
+<http://waves.org/resource#QS_Gobert_vers_BucLesLoges> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#QS_Gobert_vers_BucLesLoges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Gobert_vers_BucLesLoges> <http://www.w3.org/2000/01/rdf-schema#label> "QS Gobert vers BucLesLoges" .
+<http://waves.org/resource#QS_Gobert_vers_BucLesLoges> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8792855E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_BucLesLoges> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.132984E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_Buc_La_Boulie> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_Buc_La_Boulie> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Gobert_vers_Buc_La_Boulie> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Gobert_vers_Buc_La_Boulie> .
+<http://waves.org/resource#QS_Gobert_vers_Buc_La_Boulie> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#QS_Gobert_vers_Buc_La_Boulie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Gobert_vers_Buc_La_Boulie> <http://www.w3.org/2000/01/rdf-schema#label> "QS Gobert vers Buc La Boulie" .
+<http://waves.org/resource#QS_Gobert_vers_Buc_La_Boulie> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8792855E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_Buc_La_Boulie> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.132984E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_Versailles> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_Versailles> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Gobert_vers_Versailles> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Gobert_vers_Versailles> .
+<http://waves.org/resource#QS_Gobert_vers_Versailles> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#QS_Gobert_vers_Versailles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Gobert_vers_Versailles> <http://www.w3.org/2000/01/rdf-schema#label> "QS Gobert vers Versailles" .
+<http://waves.org/resource#QS_Gobert_vers_Versailles> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8792855E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Gobert_vers_Versailles> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.132984E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC1_Dep1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC1_Dep1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_HC1_Dep1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_HC1_Dep1> .
+<http://waves.org/resource#QS_HC1_Dep1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#QS_HC1_Dep1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_HC1_Dep1> <http://www.w3.org/2000/01/rdf-schema#label> "QS HC1 Dep1" .
+<http://waves.org/resource#QS_HC1_Dep1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8816025E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC1_Dep1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.150636E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC1_Dep2> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC1_Dep2> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_HC1_Dep2> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_HC1_Dep2> .
+<http://waves.org/resource#QS_HC1_Dep2> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#QS_HC1_Dep2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_HC1_Dep2> <http://www.w3.org/2000/01/rdf-schema#label> "QS HC1 Dep2" .
+<http://waves.org/resource#QS_HC1_Dep2> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8816025E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC1_Dep2> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.150636E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC2_Dep1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC2_Dep1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_HC2_Dep1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_HC2_Dep1> .
+<http://waves.org/resource#QS_HC2_Dep1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#QS_HC2_Dep1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_HC2_Dep1> <http://www.w3.org/2000/01/rdf-schema#label> "QS HC2 Dep1" .
+<http://waves.org/resource#QS_HC2_Dep1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8815743E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC2_Dep1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.150626E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC2_Dep2> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC2_Dep2> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_HC2_Dep2> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_HC2_Dep2> .
+<http://waves.org/resource#QS_HC2_Dep2> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#QS_HC2_Dep2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_HC2_Dep2> <http://www.w3.org/2000/01/rdf-schema#label> "QS HC2 Dep2" .
+<http://waves.org/resource#QS_HC2_Dep2> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8815743E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HC2_Dep2> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.150626E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH1_Dep1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH1_Dep1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_HH1_Dep1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_HH1_Dep1> .
+<http://waves.org/resource#QS_HH1_Dep1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#QS_HH1_Dep1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_HH1_Dep1> <http://www.w3.org/2000/01/rdf-schema#label> "QS HH1 Dep1" .
+<http://waves.org/resource#QS_HH1_Dep1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8834914E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH1_Dep1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.144792E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH1_Dep2> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH1_Dep2> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_HH1_Dep2> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_HH1_Dep2> .
+<http://waves.org/resource#QS_HH1_Dep2> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#QS_HH1_Dep2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_HH1_Dep2> <http://www.w3.org/2000/01/rdf-schema#label> "QS HH1 Dep2" .
+<http://waves.org/resource#QS_HH1_Dep2> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8834914E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH1_Dep2> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.144792E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH2_Dep1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH2_Dep1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_HH2_Dep1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_HH2_Dep1> .
+<http://waves.org/resource#QS_HH2_Dep1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#QS_HH2_Dep1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_HH2_Dep1> <http://www.w3.org/2000/01/rdf-schema#label> "QS HH2 Dep1" .
+<http://waves.org/resource#QS_HH2_Dep1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8834599E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH2_Dep1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.144864E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH2_Dep2> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH2_Dep2> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_HH2_Dep2> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_HH2_Dep2> .
+<http://waves.org/resource#QS_HH2_Dep2> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#QS_HH2_Dep2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_HH2_Dep2> <http://www.w3.org/2000/01/rdf-schema#label> "QS HH2 Dep2" .
+<http://waves.org/resource#QS_HH2_Dep2> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8834599E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_HH2_Dep2> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.144864E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves1500> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves1500> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_IVPaves1500> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_IVPav\u00E9s1500> .
+<http://waves.org/resource#QS_IVPaves1500> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#QS_IVPaves1500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_IVPaves1500> <http://www.w3.org/2000/01/rdf-schema#label> "QS IVPav\u00E9s1500" .
+<http://waves.org/resource#QS_IVPaves1500> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8781644E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves1500> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.029267E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves1500_bypass> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves1500_bypass> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_IVPaves1500_bypass> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_IVPav\u00E9s1500_bypass> .
+<http://waves.org/resource#QS_IVPaves1500_bypass> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#QS_IVPaves1500_bypass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_IVPaves1500_bypass> <http://www.w3.org/2000/01/rdf-schema#label> "QS IVPav\u00E9s1500 bypass" .
+<http://waves.org/resource#QS_IVPaves1500_bypass> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8781644E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves1500_bypass> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.029267E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves4500> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves4500> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_IVPaves4500> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_IVPav\u00E9s4500> .
+<http://waves.org/resource#QS_IVPaves4500> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#QS_IVPaves4500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_IVPaves4500> <http://www.w3.org/2000/01/rdf-schema#label> "QS IVPav\u00E9s4500" .
+<http://waves.org/resource#QS_IVPaves4500> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8779383E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_IVPaves4500> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.026939E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Laval> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Laval> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Laval> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Laval> .
+<http://waves.org/resource#QS_Laval> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Pierrier_Laval> .
+<http://waves.org/resource#QS_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Laval> <http://www.w3.org/2000/01/rdf-schema#label> "QS Laval" .
+<http://waves.org/resource#QS_Laval> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8840602E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Laval> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.202E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Satory_vers_IV_Paves> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Satory_vers_IV_Paves> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Satory_vers_IV_Paves> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Satory_vers_IV_Pav\u00E9s> .
+<http://waves.org/resource#QS_Satory_vers_IV_Paves> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#QS_Satory_vers_IV_Paves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Satory_vers_IV_Paves> <http://www.w3.org/2000/01/rdf-schema#label> "QS Satory vers IV Pav\u00E9s" .
+<http://waves.org/resource#QS_Satory_vers_IV_Paves> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8788135E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Satory_vers_IV_Paves> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.124626E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Satory_vers_Toussus> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Satory_vers_Toussus> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#QS_Satory_vers_Toussus> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQS_Satory_vers_Toussus> .
+<http://waves.org/resource#QS_Satory_vers_Toussus> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#QS_Satory_vers_Toussus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#QS_Satory_vers_Toussus> <http://www.w3.org/2000/01/rdf-schema#label> "QS Satory vers Toussus" .
+<http://waves.org/resource#QS_Satory_vers_Toussus> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8788135E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#QS_Satory_vers_Toussus> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.124626E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_250HP> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_250HP> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_250HP> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_250HP> .
+<http://waves.org/resource#Q_250HP> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#Q_250HP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_250HP> <http://www.w3.org/2000/01/rdf-schema#label> "Q 250HP" .
+<http://waves.org/resource#Q_250HP> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_250HP> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400G> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400G> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_400G> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_400G> .
+<http://waves.org/resource#Q_400G> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_400G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_400G> <http://www.w3.org/2000/01/rdf-schema#label> "Q 400G" .
+<http://waves.org/resource#Q_400G> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400G> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400N> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400N> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_400N> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_400N> .
+<http://waves.org/resource#Q_400N> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_400N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_400N> <http://www.w3.org/2000/01/rdf-schema#label> "Q 400N" .
+<http://waves.org/resource#Q_400N> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400N> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400V> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400V> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_400V> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_400V> .
+<http://waves.org/resource#Q_400V> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_400V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_400V> <http://www.w3.org/2000/01/rdf-schema#label> "Q 400V" .
+<http://waves.org/resource#Q_400V> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_400V> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600-300> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600-300> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_600-300> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_600-300> .
+<http://waves.org/resource#Q_600-300> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_600-300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_600-300> <http://www.w3.org/2000/01/rdf-schema#label> "Q 600-300" .
+<http://waves.org/resource#Q_600-300> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600-300> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600-900> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600-900> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_600-900> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_600-900> .
+<http://waves.org/resource#Q_600-900> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_600-900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_600-900> <http://www.w3.org/2000/01/rdf-schema#label> "Q 600-900" .
+<http://waves.org/resource#Q_600-900> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600-900> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600HP> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600HP> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_600HP> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_600HP> .
+<http://waves.org/resource#Q_600HP> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#Q_600HP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_600HP> <http://www.w3.org/2000/01/rdf-schema#label> "Q 600HP" .
+<http://waves.org/resource#Q_600HP> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_600HP> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_700-650> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_700-650> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_700-650> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_700-650> .
+<http://waves.org/resource#Q_700-650> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_700-650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_700-650> <http://www.w3.org/2000/01/rdf-schema#label> "Q 700-650" .
+<http://waves.org/resource#Q_700-650> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_700-650> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_800-900> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_800-900> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_800-900> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_800-900> .
+<http://waves.org/resource#Q_800-900> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_800-900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_800-900> <http://www.w3.org/2000/01/rdf-schema#label> "Q 800-900" .
+<http://waves.org/resource#Q_800-900> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851827E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_800-900> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.110242E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_BE01> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_BE01> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_BE01> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_BE01> .
+<http://waves.org/resource#Q_BE01> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_BE01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_BE01> <http://www.w3.org/2000/01/rdf-schema#label> "Q BE01" .
+<http://waves.org/resource#Q_BE01> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8831593E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_BE01> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.218952E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_BE04> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_BE04> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_BE04> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_BE04> .
+<http://waves.org/resource#Q_BE04> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_BE04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_BE04> <http://www.w3.org/2000/01/rdf-schema#label> "Q BE04" .
+<http://waves.org/resource#Q_BE04> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8766283E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_BE04> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.136241E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE02> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE02> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DE02> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DE02> .
+<http://waves.org/resource#Q_DE02> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_DE02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DE02> <http://www.w3.org/2000/01/rdf-schema#label> "Q DE02" .
+<http://waves.org/resource#Q_DE02> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.885352E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE02> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.105847E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE03> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE03> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DE03> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DE03> .
+<http://waves.org/resource#Q_DE03> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_DE03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DE03> <http://www.w3.org/2000/01/rdf-schema#label> "Q DE03" .
+<http://waves.org/resource#Q_DE03> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8850173E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE03> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.111107E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE05> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE05> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DE05> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DE05> .
+<http://waves.org/resource#Q_DE05> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_DE05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DE05> <http://www.w3.org/2000/01/rdf-schema#label> "Q DE05" .
+<http://waves.org/resource#Q_DE05> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8784647E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE05> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "1.988944E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE13> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE13> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DE13> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DE13> .
+<http://waves.org/resource#Q_DE13> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_DE13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DE13> <http://www.w3.org/2000/01/rdf-schema#label> "Q DE13" .
+<http://waves.org/resource#Q_DE13> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8751589E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DE13> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.06315E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT01> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT01> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT01> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT01> .
+<http://waves.org/resource#Q_DT01> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT01> .
+<http://waves.org/resource#Q_DT01> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Garches> .
+<http://waves.org/resource#Q_DT01> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Pierrier_Laval> .
+<http://waves.org/resource#Q_DT01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT01> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT01" .
+<http://waves.org/resource#Q_DT01> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8856675E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT01> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.21034E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT02> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT02> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT02> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT02> .
+<http://waves.org/resource#Q_DT02> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT02> .
+<http://waves.org/resource#Q_DT02> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#Q_DT02> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_DT02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT02> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT02" .
+<http://waves.org/resource#Q_DT02> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8851473E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT02> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.190468E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT04> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT04> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT04> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT04> .
+<http://waves.org/resource#Q_DT04> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT04> .
+<http://waves.org/resource#Q_DT04> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#Q_DT04> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_DT04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT04> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT04" .
+<http://waves.org/resource#Q_DT04> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8856321E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT04> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.144909E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT09> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT09> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT09> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT09> .
+<http://waves.org/resource#Q_DT09> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT09> .
+<http://waves.org/resource#Q_DT09> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Guyancourt_Detendu> .
+<http://waves.org/resource#Q_DT09> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_DT09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT09> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT09" .
+<http://waves.org/resource#Q_DT09> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.877233E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT09> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.060302E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT10> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT10> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT10> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT10> .
+<http://waves.org/resource#Q_DT10> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT10> .
+<http://waves.org/resource#Q_DT10> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Guyancourt_Detendu> .
+<http://waves.org/resource#Q_DT10> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_DT10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT10> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT10" .
+<http://waves.org/resource#Q_DT10> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8777015E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT10> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.065453E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT12> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT12> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT12> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT12> .
+<http://waves.org/resource#Q_DT12> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT12> .
+<http://waves.org/resource#Q_DT12> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#Q_DT12> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_DT12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT12> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT12" .
+<http://waves.org/resource#Q_DT12> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8778178E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT12> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.095827E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT13> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT13> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT13> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT13> .
+<http://waves.org/resource#Q_DT13> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT13> .
+<http://waves.org/resource#Q_DT13> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#Q_DT13> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_DT13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT13> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT13" .
+<http://waves.org/resource#Q_DT13> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.875562E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT13> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.089732E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT17> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT17> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT17> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT17> .
+<http://waves.org/resource#Q_DT17> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT17> .
+<http://waves.org/resource#Q_DT17> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#Q_DT17> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#Q_DT17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT17> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT17" .
+<http://waves.org/resource#Q_DT17> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8830986E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT17> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.131169E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT18> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT18> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_DT18> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_DT18> .
+<http://waves.org/resource#Q_DT18> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_DT18> .
+<http://waves.org/resource#Q_DT18> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Detendu> .
+<http://waves.org/resource#Q_DT18> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#Q_DT18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_DT18> <http://www.w3.org/2000/01/rdf-schema#label> "Q DT18" .
+<http://waves.org/resource#Q_DT18> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8844917E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_DT18> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.086078E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG01> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG01> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_EG01> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_EG01> .
+<http://waves.org/resource#Q_EG01> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_EG01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_EG01> <http://www.w3.org/2000/01/rdf-schema#label> "Q EG01" .
+<http://waves.org/resource#Q_EG01> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.879187E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG01> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.048981E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG03> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG03> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_EG03> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_EG03> .
+<http://waves.org/resource#Q_EG03> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_EG03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_EG03> <http://www.w3.org/2000/01/rdf-schema#label> "Q EG03" .
+<http://waves.org/resource#Q_EG03> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8791402E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG03> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.04318E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG04-1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG04-1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_EG04-1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_EG04-1> .
+<http://waves.org/resource#Q_EG04-1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_EG04-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_EG04-1> <http://www.w3.org/2000/01/rdf-schema#label> "Q EG04-1" .
+<http://waves.org/resource#Q_EG04-1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8791375E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG04-1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.042465E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG04-2> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG04-2> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_EG04-2> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_EG04-2> .
+<http://waves.org/resource#Q_EG04-2> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_EG04-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_EG04-2> <http://www.w3.org/2000/01/rdf-schema#label> "Q EG04-2" .
+<http://waves.org/resource#Q_EG04-2> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8791375E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG04-2> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.042465E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG05> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG05> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_EG05> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#outputflowQ_EG05> .
+<http://waves.org/resource#Q_EG05> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_EG05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_EG05> <http://www.w3.org/2000/01/rdf-schema#label> "Q EG05" .
+<http://waves.org/resource#Q_EG05> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8789743E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EG05> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.040727E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EN01> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EN01> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#CubicMeterPerHour> .
+<http://waves.org/resource#Q_EN01> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#inputflowQ_EN01> .
+<http://waves.org/resource#Q_EN01> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Q_EN01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Q_EN01> <http://www.w3.org/2000/01/rdf-schema#label> "Q EN01" .
+<http://waves.org/resource#Q_EN01> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8772512E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Q_EN01> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.00056E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_Chlore_vers_Gobert> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_Chlore_vers_Gobert> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_Chlore_vers_Gobert> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineResiduel_Chlore_vers_Gobert> .
+<http://waves.org/resource#Residuel_Chlore_vers_Gobert> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#Residuel_Chlore_vers_Gobert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_Chlore_vers_Gobert> <http://www.w3.org/2000/01/rdf-schema#label> "Residuel Chlore vers Gobert" .
+<http://waves.org/resource#Residuel_Chlore_vers_Gobert> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8802759E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_Chlore_vers_Gobert> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.138451E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_Chlore_vers_Satory> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_Chlore_vers_Satory> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_Chlore_vers_Satory> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineResiduel_Chlore_vers_Satory> .
+<http://waves.org/resource#Residuel_Chlore_vers_Satory> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#Residuel_Chlore_vers_Satory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_Chlore_vers_Satory> <http://www.w3.org/2000/01/rdf-schema#label> "Residuel Chlore vers Satory" .
+<http://waves.org/resource#Residuel_Chlore_vers_Satory> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8802759E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_Chlore_vers_Satory> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.138451E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Brezin> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Brezin> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_Brezin> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Br\u00E9zin> .
+<http://waves.org/resource#Residuel_chlore_depart_Brezin> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Brezin> .
+<http://waves.org/resource#Residuel_chlore_depart_Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_Brezin> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part Br\u00E9zin" .
+<http://waves.org/resource#Residuel_chlore_depart_Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8842258E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.16679E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Garches> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Garches> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_Garches> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Garches> .
+<http://waves.org/resource#Residuel_chlore_depart_Garches> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Garches> .
+<http://waves.org/resource#Residuel_chlore_depart_Garches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_Garches> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part Garches" .
+<http://waves.org/resource#Residuel_chlore_depart_Garches> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8849109E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Garches> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.198784E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R1> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R1> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R1> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Gobert_R1> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R1> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R1> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part Gobert R1" .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8792855E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.132984E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R4> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R4> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R4> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Gobert_R4> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R4> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R4> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part Gobert R4" .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R4> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8834599E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Gobert_R4> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.144864E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Hubies_R> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Hubies_R> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_Hubies_R> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Hubies_R> .
+<http://waves.org/resource#Residuel_chlore_depart_Hubies_R> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#Residuel_chlore_depart_Hubies_R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_Hubies_R> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part Hubies R" .
+<http://waves.org/resource#Residuel_chlore_depart_Hubies_R> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8834599E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Hubies_R> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.144864E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Laval> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Laval> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_Laval> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Laval> .
+<http://waves.org/resource#Residuel_chlore_depart_Laval> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Pierrier_Laval> .
+<http://waves.org/resource#Residuel_chlore_depart_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_Laval> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part Laval" .
+<http://waves.org/resource#Residuel_chlore_depart_Laval> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8840439E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Laval> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.202001E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Satory> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Satory> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_Satory> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Satory> .
+<http://waves.org/resource#Residuel_chlore_depart_Satory> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#Residuel_chlore_depart_Satory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_Satory> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part Satory" .
+<http://waves.org/resource#Residuel_chlore_depart_Satory> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8788135E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_Satory> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.124626E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Brezin> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Brezin> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Brezin> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_b\u00E2che_Br\u00E9zin> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Brezin> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Brezin> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Brezin> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part b\u00E2che Br\u00E9zin" .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8849208E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Brezin> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.198949E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Hubies_bas> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Hubies_bas> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Hubies_bas> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_b\u00E2che_Hubies_bas> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Hubies_bas> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Hubies_bas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Hubies_bas> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part b\u00E2che Hubies bas" .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Hubies_bas> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8816025E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_Hubies_bas> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.150636E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_IV_PAVES> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_IV_PAVES> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_IV_PAVES> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_b\u00E2che_IV_PAVES> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_IV_PAVES> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_IV_PAVES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_IV_PAVES> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part b\u00E2che IV PAVES" .
+<http://waves.org/resource#Residuel_chlore_depart_bache_IV_PAVES> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8842392E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_bache_IV_PAVES> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.16694E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_1500> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_1500> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_1500> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_r\u00E9servoir_1500> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_1500> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_1500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_1500> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part r\u00E9servoir 1500" .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_1500> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8779383E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_1500> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.026939E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_4500> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_4500> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_4500> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_r\u00E9servoir_4500> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_4500> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_4500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_4500> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore d\u00E9part r\u00E9servoir 4500" .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_4500> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8779383E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_depart_reservoir_4500> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.026939E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_entree_reseau> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_entree_reseau> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#MilligramPerLiter> .
+<http://waves.org/resource#Residuel_chlore_entree_reseau> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#chlorineR\u00E9siduel_chlore_entr\u00E9e_r\u00E9seau> .
+<http://waves.org/resource#Residuel_chlore_entree_reseau> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#Residuel_chlore_entree_reseau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#Residuel_chlore_entree_reseau> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9siduel chlore entr\u00E9e r\u00E9seau" .
+<http://waves.org/resource#Residuel_chlore_entree_reseau> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8766283E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Residuel_chlore_entree_reseau> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.136241E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#Satory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Satory> <http://www.w3.org/2000/01/rdf-schema#label> "Satory" .
+<http://waves.org/resource#Ville_Nouvelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Platform> .
+<http://waves.org/resource#Ville_Nouvelle> <http://www.w3.org/2000/01/rdf-schema#label> "Ville Nouvelle" .
+<http://waves.org/resource#chlorineChlore_DT09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineCl_PM1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineCl_PM6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineCl_PM7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineCl_PM8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineResiduel_Chlore_vers_Gobert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineResiduel_Chlore_vers_Satory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Br\u00E9zin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Garches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Gobert_R1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Gobert_R4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Hubies_R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_Satory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_b\u00E2che_Br\u00E9zin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_b\u00E2che_Hubies_bas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_b\u00E2che_IV_PAVES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_r\u00E9servoir_1500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_d\u00E9part_r\u00E9servoir_4500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#chlorineR\u00E9siduel_chlore_entr\u00E9e_r\u00E9seau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Chlorine> .
+<http://waves.org/resource#inputflowQS_Brezin> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Brezin> .
+<http://waves.org/resource#inputflowQS_Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_Garches_Bd_Pasteur> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Garches> .
+<http://waves.org/resource#inputflowQS_Garches_Bd_Pasteur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_Garches_Le_Pierrier> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Garches> .
+<http://waves.org/resource#inputflowQS_Garches_Le_Pierrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_Gobert_vers_BucLesLoges> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#inputflowQS_Gobert_vers_BucLesLoges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_Gobert_vers_Buc_La_Boulie> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#inputflowQS_Gobert_vers_Buc_La_Boulie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_Gobert_vers_Versailles> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Gobert> .
+<http://waves.org/resource#inputflowQS_Gobert_vers_Versailles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_HC1_Dep1> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#inputflowQS_HC1_Dep1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_HC1_Dep2> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#inputflowQS_HC1_Dep2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_HC2_Dep1> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#inputflowQS_HC2_Dep1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_HC2_Dep2> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Haut-Clagny> .
+<http://waves.org/resource#inputflowQS_HC2_Dep2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_HH1_Dep1> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#inputflowQS_HH1_Dep1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_HH1_Dep2> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#inputflowQS_HH1_Dep2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_HH2_Dep1> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#inputflowQS_HH2_Dep1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_HH2_Dep2> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#inputflowQS_HH2_Dep2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_IVPav\u00E9s1500> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#inputflowQS_IVPav\u00E9s1500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_IVPav\u00E9s1500_bypass> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#inputflowQS_IVPav\u00E9s1500_bypass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_IVPav\u00E9s4500> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#inputflowQS_IVPav\u00E9s4500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_Laval> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Pierrier_Laval> .
+<http://waves.org/resource#inputflowQS_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_Satory_vers_IV_Pav\u00E9s> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#inputflowQS_Satory_vers_IV_Pav\u00E9s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQS_Satory_vers_Toussus> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#inputflowQS_Satory_vers_Toussus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_250HP> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#inputflowQ_250HP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_400G> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_400G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_400N> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_400N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_400V> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_400V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_600-300> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_600-300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_600-900> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_600-900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_600HP> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#inputflowQ_600HP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_700-650> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_700-650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_800-900> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_800-900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_BE01> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_BE01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_BE04> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#inputflowQ_BE04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DE02> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_DE02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DE05> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#inputflowQ_DE05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DE13> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#inputflowQ_DE13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT01> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Pierrier_Laval> .
+<http://waves.org/resource#inputflowQ_DT01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT02> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_DT02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT04> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_DT04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT09> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Guyancourt_Detendu> .
+<http://waves.org/resource#inputflowQ_DT09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT10> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Guyancourt_Detendu> .
+<http://waves.org/resource#inputflowQ_DT10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT12> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#inputflowQ_DT12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT13> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#inputflowQ_DT13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT17> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#inputflowQ_DT17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_DT18> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Detendu> .
+<http://waves.org/resource#inputflowQ_DT18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#inputflowQ_EN01> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#inputflowQ_EN01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#inputFlow> .
+<http://waves.org/resource#outputflowQE_Bache_Br\u00E9zin> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#outputflowQE_Bache_Br\u00E9zin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_Bache_IV_Pav\u00E9s> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Satory> .
+<http://waves.org/resource#outputflowQE_Bache_IV_Pav\u00E9s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_Garches> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#outputflowQE_Garches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_H-Br\u00E9zin> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#outputflowQE_H-Br\u00E9zin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_HC1> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#outputflowQE_HC1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_HC2> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#outputflowQE_HC2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_Hubies_Bas> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#outputflowQE_Hubies_Bas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_Laval> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#outputflowQE_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_Montbauron_r\u00E9servoir_1> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#outputflowQE_Montbauron_r\u00E9servoir_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQE_Montbauron_r\u00E9servoir_2> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#outputflowQE_Montbauron_r\u00E9servoir_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DE03> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#outputflowQ_DE03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT01> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Garches> .
+<http://waves.org/resource#outputflowQ_DT01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT02> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#outputflowQ_DT02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT04> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#outputflowQ_DT04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT09> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_DT09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT10> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_DT10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT12> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_DT12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT13> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_DT13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT17> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#outputflowQ_DT17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_DT18> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Hubies_Haut> .
+<http://waves.org/resource#outputflowQ_DT18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_EG01> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_EG01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_EG03> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_EG03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_EG04-1> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_EG04-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_EG04-2> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_EG04-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#outputflowQ_EG05> <http://his.cuahsi.org/ontology/cuahsi#relatedTo> <http://waves.org/resource#Ville_Nouvelle> .
+<http://waves.org/resource#outputflowQ_EG05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#outputFlow> .
+<http://waves.org/resource#pH_PM8> <http://data.nasa.gov/qudt/owl/qudt#scale> "1.0E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#pH_PM8> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://qudt.org/vocab/unit#pH> .
+<http://waves.org/resource#pH_PM8> <http://purl.oclc.org/NET/ssnx/ssn#observes> <http://waves.org/resource#phpH_PM8> .
+<http://waves.org/resource#pH_PM8> <http://purl.oclc.org/NET/ssnx/ssn#onPlatform> <http://waves.org/resource#Louveciennes> .
+<http://waves.org/resource#pH_PM8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Sensor> .
+<http://waves.org/resource#pH_PM8> <http://www.w3.org/2000/01/rdf-schema#label> "pH PM8" .
+<http://waves.org/resource#pH_PM8> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.8816E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#pH_PM8> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "2.08E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://waves.org/resource#phpH_PM8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#pH> .
+<http://waves.org/resource#pressurePE_Garches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePE_H-Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePE_Hubies_Bas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePE_IV_Pav\u00E9s_800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePE_L-Brezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePE_Laval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePE_Montbauron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePE_Usine_Gobert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePRef_Hubies_Hauts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePS_Haut_Clagny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressurePS_Hubies_Hauts_vers_Louv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_BE01_SEVESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_BE01_VE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_DT01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_DT09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_Louveciennes_Bailly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_Louveciennes_Deux_Portes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_PM1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_PM3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_PM4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_PM5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_PM6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_PM7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_PM8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_Point_Triple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_Porte_St_Antoine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .
+<http://waves.org/resource#pressureP_Ville_d'Avray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://his.cuahsi.org/ontology/cuahsi#Pressure> .

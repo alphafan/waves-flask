@@ -1,0 +1,242 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix waves:  <http://www.waves-rsp.org/configuration#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://localhost:9091/waves/versailles/> .
+
+<http://localhost:9091/waves/first-tests> {
+
+  # Installation Global Settings
+
+  <installation>
+    rdf:type                waves:Installation ;
+    waves:name              "first-tests" ;
+    waves:zookeeperHosts    "localhost:2181" ;
+    waves:redisHost         "localhost:6379" ;
+    waves:mongoHost         "localhost:27017" ;
+    waves:influxHost        "localhost:8086" ;
+    rdfs:label              "installation" ;
+
+	# Waves shifted and accelerated system clock configuration.
+	waves:clock	[
+		# For shifted clock, a start date is mandated.
+		waves:startDate	"2013-12-31T23:00:00Z"^^xsd:dateTime ;
+		waves:local.timezone "false";
+		# Acceleration factor can be defined as an interval,
+		# with a start date (see above), an end date:
+		# waves:endDate		"2015-10-11T09:38:00Z"^^xsd:dateTime ;
+		# and an actual (real time) duration for the interval:
+		# waves:duration		"PT15M"^^xsd:duration ;
+		# Or directly as a double value:
+		waves:acceleration	"200.0"^^xsd:double
+	] ;
+	
+		# Waves metrics collection.
+	waves:metrics	[
+		# Report metrics every 15 seconds.
+		waves:frequency		"PT15S"^^xsd:duration ;
+		# Report metrics to local console only.
+		waves:reporters		"console"
+		# waves:reporters	"influxdb, jvm"
+	] .
+	
+  # Data Sources & (Raw) Stream Settings
+
+  <rawSource/1>
+    rdf:type                waves:RawSource ;
+    waves:id                "1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:inputType         "Folder" ;
+    waves:location          "src/test/resources/multiVersailles" ;  
+    waves:producesStream    <rawStream/1> ;
+    # To delete if the input type is kafka or web service
+    waves:inputPattern      ".csv$" .	
+    
+  <rawStream/1>
+    rdf:type                waves:RawStream ;
+    waves:installation      <installation> ;
+    waves:id                "1"^^xsd:integer .
+
+  # Data Processing Parameters (Native Filter, Converter, Strider)
+
+  <cleaner/1>
+    rdf:type                waves:Cleaner ;
+    waves:id  			  	"1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:consumesStream   	<rawStream/1> ;
+    waves:producesStream    <rawStream/2> ;
+    # Cleaner Parameters
+    waves:timeIntervalTrainingLength    "10"^^xsd:interger ; 
+    waves:allowedDuration   "02:00:00"^^xsd:time ;
+    waves:initTime          "23:00:00"^^xsd:time .
+
+  <rawStream/2>
+    rdf:type                waves:RawStream ;
+    waves:installation      <installation> ;
+    waves:id                "2"^^xsd:integer .
+
+  <sampler/1>
+    rdf:type                waves:Sampler ;
+    waves:id                "1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:consumesStream   <rawStream/2> ;
+    waves:producesStream    <rawStream/3> ;
+    waves:samplingMethod     "randomSampling" ;
+    waves:samplingParameter "96"^^xsd:integer.
+    
+  <rawStream/3>
+    rdf:type                waves:RawStream ;
+    waves:installation      <installation> ;
+    waves:id                "3"^^xsd:integer .
+   	
+  <converter/1>
+    rdf:type                waves:Converter ;
+    waves:installation      <installation> ;
+    waves:id             	"1"^^xsd:integer ;
+    waves:consumesStream    <rawStream/3> ;
+    waves:producesStream    <stream/54> ;
+    waves:model             """
+        @prefix ssn:<http://purl.oclc.org/NET/ssnx/ssn#> . 
+        @prefix qudt:<http://data.nasa.gov/qudt/owl/qudt#> . 
+        @prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+        @prefix waves:<http://example.org/waves#> .
+        $eventId 
+            a ssn:SensorOutput;
+            ssn:isProducedBy $uri(?id);
+            ssn:hasValue $bnode(?obsId);
+            ssn:startTime $timestamp .
+        $bnode(?obsId)
+            a ssn:ObservationValue ;
+            qudt:numericValue $double(?value, ?unit, ?scale) .
+    """ ;
+    # If unit is needed, later we will add it
+    # waves:unit			<unit/1i> ;
+    waves:query             """
+        prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+        prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> 
+        prefix ssn:<http://purl.oclc.org/NET/ssnx/ssn#> 
+        prefix qudt:<http://data.nasa.gov/qudt/owl/qudt#> 
+        select * 
+        where { 
+            ?sensorUri rdf:type ssn:Sensor ; 
+                qudt:unit ?unit ; 
+                rdfs:label ?sensorName . 
+        }
+    """ .
+       
+   <stream/54>
+    rdf:type                waves:Stream ;
+    waves:installation      <installation> ;
+    waves:id                "54"^^xsd:integer .    
+    
+  <filter/123>
+    rdf:type                waves:Filter ;
+    waves:id 				"1"^^xsd:integer ;
+    waves:installation      <installation> ;
+    waves:consumesStreams   <stream/54> ;
+    waves:producesStream    <stream/123> ;
+    waves:staticFeed        _:b3 ;
+    waves:windowSpan        "PT2S"^^xsd:duration ;
+    waves:stepRate		    "PT2S"^^xsd:duration ;
+    waves:batch             "PT2S"^^xsd:duration ;
+    waves:reasoning         "false"^^xsd:boolean;
+    waves:numTasks          "2"^^xsd:integer ;
+	waves:workers		    "1"^^xsd:int ;
+    waves:broadcastThreshold    "1"^^xsd:integer ;
+    waves:concurrentJobs        "1"^^xsd:integer ;
+    waves:numberRepartitions    "4"^^xsd:integer ;
+    waves:shuffledPartitions     "8"^^xsd:integer ;
+ 	waves:query		"""
+ 	prefix owl:<http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#>
+ 	prefix waves:<http://waves-rsp.org/resource#>
+    construct{
+    ?eventId waves:time ?time.
+    ?s owl:ID  ?o1.
+    }
+    where {
+        ?s owl:parameter ?o;
+           owl:ID ?o1.
+          }
+		""" .
+  
+   	_:F1_S54 
+	rdfs:label		"F1_S54" ;
+	waves:stream		<stream/54> ;
+	waves:windowSpan	"PT900S"^^xsd:duration .
+			     
+  <stream/123>
+    rdf:type                waves:Stream ;
+    waves:installation      <installation> ;
+    waves:id                "123"^^xsd:integer .
+     
+
+  # Static data RDF document feed
+  _:b3	
+    rdf:type                waves:RdfFeed ;
+    rdfs:label              "doc1Feed" ;
+    waves:feedType          "RdfDocument" ;
+    waves:refreshInterval	"PT2M"^^xsd:duration ;
+    waves:location          "file:///tmp/sample1.ttl" .
+  
+     <scouter/5h>
+    rdf:type                waves:Scouter ;
+    waves:installation      <installation> ;
+    waves:consumesStreams   <stream/xx_anomaly_detection> ;
+    waves:producesStream    <stream/6g> ;
+    waves:staticFeed        _:b4 .
+    
+   _:b4	
+    rdf:type                waves:RSSFeed ;
+    rdfs:label              "RSSSource" ;
+    waves:feedType          "newspapers" ;
+    waves:url1              "http://www.leparisien.fr/yvelines-78/rss.xml#xtor=RSS-1481423633";
+    waves:url2              "http://www.78actu.fr/feed/?post_type=post";
+    waves:url3              "http://www.versailles.fr/?id=41&type=9818";
+    waves:url4              "http://www.versailles.fr/?id=42&type=9818";
+    waves:url4              "http://www.versailles.fr/index.php?type=152";
+   	waves:url5              "http://www.sdis78.fr/les-interventions?format=feed&type=rss";
+   	waves:url1              "http://www.yvelines.gouv.fr/syndication/flux/rss_feed_69" .
+  
+  _:b5
+    rdf:type               waves:SparqlFeed ;
+    waves:feedType         "SPARQL" ;
+    waves:location         "http://dbpedia.org/sparql" ;
+    waves:refreshInterval  "PT2M"^^xsd:duration ;
+    waves:query            """
+      SELECT DISTINCT ?Concept
+      WHERE {?x a ?Concept}
+      LIMIT 100
+      """ .
+  
+  _:b6	
+    rdf:type                waves:TwitterFeed ;
+    rdfs:label              "TwitterSource" ;
+    waves:feedType          "tweets" ;
+    waves:hashTag1          "#Sdis78" .
+
+  _:b7	
+    rdf:type                waves:OpenDataFeed ;
+    rdfs:label              "OpenDataSource" ;
+    waves:feedType          "events" ;
+    waves:url1              "https://public.opendatasoft.com/api/records/1.0/search/?dataset=evenements-publics-cibul&rows=1000&sort=-updated_at&facet=updated_at&facet=tags&facet=placename&facet=department&facet=region&facet=city&facet=date_start&facet=date_end&facet=pricing_info" .
+  
+   <sink/5h>
+    rdf:type                waves:Sink ;
+    waves:sinkType          "MongoStore" ;
+    waves:installation      <installation> ;
+    waves:consumesStreams   <stream/5h> ;
+    rdfs:label              "xxxxxx" ;
+    waves:location          "http://localhost:27017/scouters/events" .
+  
+  <sink/3l>
+    rdf:type                waves:Sink ;
+    waves:sinkType          "RdfStore" ;
+    waves:installation      <installation> ;
+    waves:consumesStreams   <stream/3f> ;
+    waves:id                "6"^^xsd:integer ;
+    waves:location          "http://localhost:9091/openrdf-sesame/repositories/waves" .
+  
+ 
+}
